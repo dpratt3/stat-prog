@@ -10,10 +10,11 @@ def shuffle(X):
     # P1
     t = len(X) - 1
     j = t
+    
     while j > 1:
         # P2 : Generate uniformly distributed random number
         U = random.uniform(0, 1)
-
+        
         # P3
         k = math.floor(j * U)
         store = X[j]
