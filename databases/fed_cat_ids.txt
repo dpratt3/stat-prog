@@ -1,0 +1,1556 @@
+﻿T10Y2Y: 10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity
+T10Y2YM: 10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity
+T10YIE: 10-Year Breakeven Inflation Rate
+T10YIEM: 10-Year Breakeven Inflation Rate
+UNRATE: Unemployment Rate
+UNRATENSA: Unemployment Rate
+CPIAUCSL: Consumer Price Index for All Urban Consumers: All Items in U.S. City Average
+CPIAUCNS: Consumer Price Index for All Urban Consumers: All Items in U.S. City Average
+CUUS0000SA0: Consumer Price Index for All Urban Consumers: All Items in U.S. City Average
+FEDFUNDS: Federal Funds Effective Rate
+DFF: Federal Funds Effective Rate
+FF: Federal Funds Effective Rate
+GDPC1: Real Gross Domestic Product
+A191RL1Q225SBEA: Real Gross Domestic Product
+GDPCA: Real Gross Domestic Product
+A191RO1Q156NBEA: Real Gross Domestic Product
+A191RL1A225NBEA: Real Gross Domestic Product
+ND000334Q: Real Gross Domestic Product
+NB000334Q: Real Gross Domestic Product
+OB000334Q: Real Gross Domestic Product
+DGS10: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity
+GS10: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity
+WGS10YR: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity
+GDP: Gross Domestic Product
+GDPA: Gross Domestic Product
+A191RP1Q027SBEA: Gross Domestic Product
+NA000334Q: Gross Domestic Product
+FYGDP: Gross Domestic Product
+A191RP1A027NBEA: Gross Domestic Product
+NC000334Q: Gross Domestic Product
+BAMLH0A0HYM2: ICE BofA US High Yield Index Option-Adjusted Spread
+MORTGAGE30US: 30-Year Fixed Rate Mortgage Average in the United States
+M2SL: M2
+WM2NS: M2
+M2NS: M2
+WALCL: Assets: Total Assets: Total Assets (Less Eliminations from Consolidation): Wednesday Level
+M1SL: M1
+WM1NS: M1
+M1NS: M1
+DFII10: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Inflation-Indexed
+FII10: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Inflation-Indexed
+WFII10: Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Inflation-Indexed
+CSUSHPINSA: S&P/Case-Shiller U.S. National Home Price Index
+CSUSHPISA: S&P/Case-Shiller U.S. National Home Price Index
+M2V: Velocity of M2 Money Stock
+T5YIE: 5-Year Breakeven Inflation Rate
+T5YIEM: 5-Year Breakeven Inflation Rate
+T5YIFR: 5-Year, 5-Year Forward Inflation Expectation Rate
+T5YIFRM: 5-Year, 5-Year Forward Inflation Expectation Rate
+RRPONTSYD: Overnight Reverse Repurchase Agreements: Treasury Securities Sold by the Federal Reserve in the Temporary Open Market Operations
+T10Y3M: 10-Year Treasury Constant Maturity Minus 3-Month Treasury Constant Maturity
+T10Y3MM: 10-Year Treasury Constant Maturity Minus 3-Month Treasury Constant Maturity
+USD3MTD156N: 3-Month London Interbank Offered Rate (LIBOR), based on U.S. Dollar
+M2: M2 (DISCONTINUED)
+MSPUS: Median Sales Price of Houses Sold for the United States
+CIVPART: Labor Force Participation Rate
+LNU01300000: Labor Force Participation Rate
+GFDEGDQ188S: Federal Debt: Total Public Debt as Percent of Gross Domestic Product
+PAYEMS: All Employees, Total Nonfarm
+PAYNSA: All Employees, Total Nonfarm
+FPCPITOTLZGUSA: Inflation, consumer prices for the United States
+M1: M1 (DISCONTINUED)
+USD1MTD156N: 1-Month London Interbank Offered Rate (LIBOR), based on U.S. Dollar
+SP500: S&P 500
+TB3MS: 3-Month Treasury Bill Secondary Market Rate
+DTB3: 3-Month Treasury Bill Secondary Market Rate
+WTB3MS: 3-Month Treasury Bill Secondary Market Rate
+DCOILWTICO: Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma
+MCOILWTICO: Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma
+WCOILWTICO: Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma
+ACOILWTICO: Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma
+PSAVERT: Personal Saving Rate
+MEHOINUSA672N: Real Median Household Income in the United States
+PCE: Personal Consumption Expenditures
+PCEC: Personal Consumption Expenditures
+PCECA: Personal Consumption Expenditures
+NA000349Q: Personal Consumption Expenditures
+NC000349Q: Personal Consumption Expenditures
+CPALTT01USM657N: Consumer Price Index: Total All Items for the United States
+CPALTT01USQ657N: Consumer Price Index: Total All Items for the United States
+CPALTT01USM659N: Consumer Price Index: Total All Items for the United States
+CPALTT01USM661S: Consumer Price Index: Total All Items for the United States
+CPALTT01USQ661S: Consumer Price Index: Total All Items for the United States
+CPALTT01USA661S: Consumer Price Index: Total All Items for the United States
+CPALTT01USQ659N: Consumer Price Index: Total All Items for the United States
+CPALTT01USA657N: Consumer Price Index: Total All Items for the United States
+CPALTT01USA659N: Consumer Price Index: Total All Items for the United States
+AAA: Moody's Seasoned Aaa Corporate Bond Yield
+DAAA: Moody's Seasoned Aaa Corporate Bond Yield
+WAAA: Moody's Seasoned Aaa Corporate Bond Yield
+BAMLH0A0HYM2EY: ICE BofA US High Yield Index Effective Yield
+CPILFESL: Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average
+CPILFENS: Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average
+CUUS0000SA0L1E: Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average
+TEDRATE: TED Spread
+INDPRO: Industrial Production: Total Index
+IPB50001N: Industrial Production: Total Index
+IPB50001SQ: Industrial Production: Total Index
+IPB50001NQ: Industrial Production: Total Index
+DBAA: Moody's Seasoned Baa Corporate Bond Yield
+BAA: Moody's Seasoned Baa Corporate Bond Yield
+WBAA: Moody's Seasoned Baa Corporate Bond Yield
+CURRCIR: Currency in Circulation
+ICSA: Initial Claims
+ICNSA: Initial Claims
+WPU0911: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Wood Pulp
+WPU091105: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Wood Pulp
+WPS0911: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Wood Pulp
+WPU09110501: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Wood Pulp
+MSACSR: Monthly Supply of Houses in the United States
+MSACSRNSA: Monthly Supply of Houses in the United States
+GFDEBTN: Federal Debt: Total Public Debt
+BOGMBASE: Monetary Base; Total
+BAMLC0A4CBBB: ICE BofA BBB US Corporate Index Option-Adjusted Spread
+DGS1: Market Yield on U.S. Treasury Securities at 1-Year Constant Maturity
+GS1: Market Yield on U.S. Treasury Securities at 1-Year Constant Maturity
+WGS1YR: Market Yield on U.S. Treasury Securities at 1-Year Constant Maturity
+UMCSENT: University of Michigan: Consumer Sentiment
+HOUST: New Privately-Owned Housing Units Started: Total Units
+HOUSTNSA: New Privately-Owned Housing Units Started: Total Units
+A939RX0Q048SBEA: Real gross domestic product per capita
+INTDSRUSM193N: Interest Rates, Discount Rate for United States
+PPIACO: Producer Price Index by Commodity: All Commodities
+WPU101707: Producer Price Index by Commodity: Metals and Metal Products: Cold Rolled Steel Sheet and Strip
+WPS101707: Producer Price Index by Commodity: Metals and Metal Products: Cold Rolled Steel Sheet and Strip
+DTWEXBGS: Nominal Broad U.S. Dollar Index
+TWEXBGSMTH: Nominal Broad U.S. Dollar Index
+TWEXBGSANL: Nominal Broad U.S. Dollar Index
+PCEPILFE: Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index)
+BPCCRO1Q156NBEA: Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index)
+DPCCRG3A086NBEA: Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index)
+DGS5: Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity
+GS5: Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity
+WGS5YR: Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity
+DEXUSEU: U.S. Dollars to Euro Spot Exchange Rate
+EXUSEU: U.S. Dollars to Euro Spot Exchange Rate
+AEXUSEU: U.S. Dollars to Euro Spot Exchange Rate
+PCEC96: Real Personal Consumption Expenditures
+PCECC96: Real Personal Consumption Expenditures
+DPCERL1Q225SBEA: Real Personal Consumption Expenditures
+PCECCA: Real Personal Consumption Expenditures
+DPCERAM1M225NBEA: Real Personal Consumption Expenditures
+DPCERO1Q156NBEA: Real Personal Consumption Expenditures
+NB000349Q: Real Personal Consumption Expenditures
+ND000349Q: Real Personal Consumption Expenditures
+DPCERL1A225NBEA: Real Personal Consumption Expenditures
+OB000349Q: Real Personal Consumption Expenditures
+BAA10Y: Moody's Seasoned Baa Corporate Bond Yield Relative to Yield on 10-Year Treasury Constant Maturity
+BAA10YM: Moody's Seasoned Baa Corporate Bond Yield Relative to Yield on 10-Year Treasury Constant Maturity
+PCEPI: Personal Consumption Expenditures: Chain-type Price Index
+PCECTPI: Personal Consumption Expenditures: Chain-type Price Index
+DPCERG3A086NBEA: Personal Consumption Expenditures: Chain-type Price Index
+PCU325211325211: Producer Price Index by Industry: Plastics Material and Resins Manufacturing
+TOTALSA: Total Vehicle Sales
+TOTALNSA: Total Vehicle Sales
+ASPUS: Average Sales Price of Houses Sold for the United States
+MORTGAGE15US: 15-Year Fixed Rate Mortgage Average in the United States
+DGS30: Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity
+GS30: Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity
+WGS30YR: Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity
+M1V: Velocity of M1 Money Stock
+GDPDEF: Gross Domestic Product: Implicit Price Deflator
+A191RI1Q225SBEA: Gross Domestic Product: Implicit Price Deflator
+A191RI1A225NBEA: Gross Domestic Product: Implicit Price Deflator
+SOFR: Secured Overnight Financing Rate
+DGS2: Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity
+GS2: Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity
+WGS2YR: Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity
+STLFSI2: St. Louis Fed Financial Stress Index
+BAMLH0A1HYBB: ICE BofA BB US High Yield Index Option-Adjusted Spread
+GOLDAMGBD228NLBM: Gold Fixing Price 10:30 A.M. (London time) in London Bullion Market, based in U.S. Dollars
+MABMM301USM189S: M3 for the United States
+MABMM301USA657S: M3 for the United States
+MABMM301USQ189S: M3 for the United States
+MABMM301USM657S: M3 for the United States
+MABMM301USA189S: M3 for the United States
+MABMM301USQ657S: M3 for the United States
+USSTHPI: All-Transactions House Price Index for the United States
+VIXCLS: CBOE Volatility Index: VIX
+CES0500000003: Average Hourly Earnings of All Employees, Total Private
+CEU0500000003: Average Hourly Earnings of All Employees, Total Private
+BAMLC0A0CM: ICE BofA US Corporate Index Option-Adjusted Spread
+FYFSD: Federal Surplus or Deficit [-]
+MTSDS133FMS: Federal Surplus or Deficit [-]
+BAMLH0A3HYC: ICE BofA CCC & Lower US High Yield Index Option-Adjusted Spread
+BAMLC0A4CBBBEY: ICE BofA BBB US Corporate Index Effective Yield
+WTREGEN: Liabilities and Capital: Liabilities: Deposits with F.R. Banks, Other Than Reserve Balances: U.S. Treasury, General Account: Week Average
+DJIA: Dow Jones Industrial Average
+DGS20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity
+GS20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity
+WGS20YR: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity
+EFFR: Effective Federal Funds Rate
+RECPROUSM156N: Smoothed U.S. Recession Probabilities
+LNS14000006: Unemployment Rate - Black or African American
+LNU04000006: Unemployment Rate - Black or African American
+BUSLOANS: Commercial and Industrial Loans, All Commercial Banks
+TOTCI: Commercial and Industrial Loans, All Commercial Banks
+H8B1023NCBCMG: Commercial and Industrial Loans, All Commercial Banks
+CILACBQ158SBOG: Commercial and Industrial Loans, All Commercial Banks
+TOTCINSA: Commercial and Industrial Loans, All Commercial Banks
+BUSLOANSNSA: Commercial and Industrial Loans, All Commercial Banks
+H8B1023NCBCAG: Commercial and Industrial Loans, All Commercial Banks
+ACILACB: Commercial and Industrial Loans, All Commercial Banks
+DSPIC96: Real Disposable Personal Income
+DPIC96: Real Disposable Personal Income
+A067RX1A020NBEA: Real Disposable Personal Income
+A067RL1Q156SBEA: Real Disposable Personal Income
+A067RO1Q156NBEA: Real Disposable Personal Income
+A067RL1A156NBEA: Real Disposable Personal Income
+USD12MD156N: 12-Month London Interbank Offered Rate (LIBOR), based on U.S. Dollar
+GDPPOT: Real Potential Gross Domestic Product
+DCOILBRENTEU: Crude Oil Prices: Brent - Europe
+MCOILBRENTEU: Crude Oil Prices: Brent - Europe
+ACOILBRENTEU: Crude Oil Prices: Brent - Europe
+WCOILBRENTEU: Crude Oil Prices: Brent - Europe
+MEPAINUSA672N: Real Median Personal Income in the United States
+TREAST: Assets: Securities Held Outright: U.S. Treasury Securities: All: Wednesday Level
+DFEDTARU: Federal Funds Target Range - Upper Limit
+SPCS20RSA: S&P/Case-Shiller 20-City Composite Home Price Index
+SPCS20RNSA: S&P/Case-Shiller 20-City Composite Home Price Index
+JTSJOL: Job Openings: Total Nonfarm
+JTSJOR: Job Openings: Total Nonfarm
+JTUJOL: Job Openings: Total Nonfarm
+JTUJOR: Job Openings: Total Nonfarm
+MICH: University of Michigan: Inflation Expectation
+BAMLH0A3HYCEY: ICE BofA CCC & Lower US High Yield Index Effective Yield
+DFII5: Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Inflation-Indexed
+FII5: Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Inflation-Indexed
+WFII5: Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Inflation-Indexed
+EMRATIO: Employment-Population Ratio
+LNU02300000: Employment-Population Ratio
+IOER: Interest Rate on Excess Reserves (DISCONTINUED)
+DEXCHUS: Chinese Yuan Renminbi to U.S. Dollar Spot Exchange Rate
+EXCHUS: Chinese Yuan Renminbi to U.S. Dollar Spot Exchange Rate
+AEXCHUS: Chinese Yuan Renminbi to U.S. Dollar Spot Exchange Rate
+CCSA: Continued Claims (Insured Unemployment)
+CCNSA: Continued Claims (Insured Unemployment)
+LES1252881600Q: Employed full time: Median usual weekly real earnings: Wage and salary workers: 16 years and over
+LEU0252881600A: Employed full time: Median usual weekly real earnings: Wage and salary workers: 16 years and over
+LEU0252881600Q: Employed full time: Median usual weekly real earnings: Wage and salary workers: 16 years and over
+DPRIME: Bank Prime Loan Rate
+MPRIME: Bank Prime Loan Rate
+WPRIME: Bank Prime Loan Rate
+USD6MTD156N: 6-Month London Interbank Offered Rate (LIBOR), based on U.S. Dollar
+RSXFS: Advance Retail Sales: Retail Trade
+RSXFSN: Advance Retail Sales: Retail Trade
+MARTSMPCSM44000USS: Advance Retail Sales: Retail Trade
+MARTSMPCSM44000USN: Advance Retail Sales: Retail Trade
+WPU101: Producer Price Index by Commodity: Metals and Metal Products: Iron and Steel
+PAKDGDPGDPPT: Total External Debt for Pakistan
+DGS3MO: Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity
+GS3M: Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity
+WGS3MO: Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity
+DRSFRMACBS: Delinquency Rate on Single-Family Residential Mortgages, Booked in Domestic Offices, All Commercial Banks
+DRSFRMACBN: Delinquency Rate on Single-Family Residential Mortgages, Booked in Domestic Offices, All Commercial Banks
+GOLDPMGBD228NLBM: Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars
+NROU: Noncyclical Rate of Unemployment
+DGS1MO: Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity
+GS1M: Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity
+WGS1MO: Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity
+DEXJPUS: Japanese Yen to U.S. Dollar Spot Exchange Rate
+EXJPUS: Japanese Yen to U.S. Dollar Spot Exchange Rate
+AEXJPUS: Japanese Yen to U.S. Dollar Spot Exchange Rate
+UNEMPLOY: Unemployment Level
+LNU03000000: Unemployment Level
+CUSR0000SETA02: Consumer Price Index for All Urban Consumers: Used Cars and Trucks in U.S. City Average
+CUUR0000SETA02: Consumer Price Index for All Urban Consumers: Used Cars and Trucks in U.S. City Average
+CUUS0000SETA02: Consumer Price Index for All Urban Consumers: Used Cars and Trucks in U.S. City Average
+CLF16OV: Civilian Labor Force Level
+LNU01000000: Civilian Labor Force Level
+DPSACBW027SBOG: Deposits, All Commercial Banks
+H8B1058NCBCMG: Deposits, All Commercial Banks
+DPSACBM027NBOG: Deposits, All Commercial Banks
+DPSACBM027SBOG: Deposits, All Commercial Banks
+DPSACBW027NBOG: Deposits, All Commercial Banks
+DPSACBQ158SBOG: Deposits, All Commercial Banks
+H8B1058NCBCAG: Deposits, All Commercial Banks
+FYFSGDA188S: Federal Surplus or Deficit [-] as Percent of Gross Domestic Product
+FYFSDFYGDP: Federal Surplus or Deficit [-] as Percent of Gross Domestic Product
+TDSP: Household Debt Service Payments as a Percent of Disposable Personal Income
+IRLTLT01USM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United States
+IRLTLT01USQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United States
+IRLTLT01USA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United States
+CP: Corporate Profits After Tax (without IVA and CCAdj)
+LNS11300002: Labor Force Participation Rate - Women
+LNU01300002: Labor Force Participation Rate - Women
+LFWA64TTUSM647S: Working Age Population: Aged 15-64: All Persons for the United States
+LFWA64TTUSM647N: Working Age Population: Aged 15-64: All Persons for the United States
+LFWA64TTUSQ647S: Working Age Population: Aged 15-64: All Persons for the United States
+LFWA64TTUSQ647N: Working Age Population: Aged 15-64: All Persons for the United States
+LFWA64TTUSA647N: Working Age Population: Aged 15-64: All Persons for the United States
+LFWA64TTUSA647S: Working Age Population: Aged 15-64: All Persons for the United States
+U6RATE: Total Unemployed, Plus All Persons Marginally Attached to the Labor Force, Plus Total Employed Part Time for Economic Reasons, as a Percent of the Civilian Labor Force Plus All Persons Marginally Attached to the Labor Force (U-6)
+U6RATENSA: Total Unemployed, Plus All Persons Marginally Attached to the Labor Force, Plus Total Employed Part Time for Economic Reasons, as a Percent of the Civilian Labor Force Plus All Persons Marginally Attached to the Labor Force (U-6)
+PI: Personal Income
+PINCOME: Personal Income
+A065RC1A027NBEA: Personal Income
+PSUNOUSDM: Global price of Sunflower Oil
+PSUNOUSDQ: Global price of Sunflower Oil
+PSUNOUSDA: Global price of Sunflower Oil
+CUUR0000SA0R: Consumer Price Index for All Urban Consumers: Purchasing Power of the Consumer Dollar in U.S. City Average
+GASREGW: US Regular All Formulations Gas Price
+GASREGM: US Regular All Formulations Gas Price
+GASREGA: US Regular All Formulations Gas Price
+USREC: NBER based Recession Indicators for the United States from the Period following the Peak through the Trough
+USRECD: NBER based Recession Indicators for the United States from the Period following the Peak through the Trough
+USRECQ: NBER based Recession Indicators for the United States from the Period following the Peak through the Trough
+A229RX0: Real Disposable Personal Income: Per Capita
+A229RX0A048NBEA: Real Disposable Personal Income: Per Capita
+A229RX0Q048SBEA: Real Disposable Personal Income: Per Capita
+T10YFF: 10-Year Treasury Constant Maturity Minus Federal Funds Rate
+T10YFFM: 10-Year Treasury Constant Maturity Minus Federal Funds Rate
+RHORUSQ156N: Homeownership Rate in the United States
+RSAHORUSQ156S: Homeownership Rate in the United States
+PERMIT: New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units
+PERMITNSA: New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units
+HDTGPDUSQ163N: Household Debt to GDP for United States
+EXHOSLUSM495S: Existing Home Sales
+EXHOSLUSM495N: Existing Home Sales
+BAMLH0A1HYBBEY: ICE BofA BB US High Yield Index Effective Yield
+M2REAL: Real M2 Money Stock
+WILL5000INDFC: Wilshire 5000 Total Market Full Cap Index
+ALTSALES: Light Weight Vehicle Sales: Autos and Light Trucks
+JTSQUR: Quits: Total Nonfarm
+JTSQUL: Quits: Total Nonfarm
+JTUQUL: Quits: Total Nonfarm
+JTUQUR: Quits: Total Nonfarm
+CASTHPI: All-Transactions House Price Index for California
+EXCSRESNS: Excess Reserves of Depository Institutions (DISCONTINUED)
+EXCSRESNW: Excess Reserves of Depository Institutions (DISCONTINUED)
+EXCRESNS: Excess Reserves of Depository Institutions (DISCONTINUED)
+ISRATIO: Total Business: Inventories to Sales Ratio
+TOTBUSIRNSA: Total Business: Inventories to Sales Ratio
+PALLFNFINDEXQ: Global Price Index of All Commodities
+PALLFNFINDEXM: Global Price Index of All Commodities
+PALLFNFINDEXA: Global Price Index of All Commodities
+CE16OV: Employment Level
+LNU02000000: Employment Level
+USSLIND: Leading Index for the United States
+CUUR0000SEHA: Consumer Price Index for All Urban Consumers: Rent of Primary Residence in U.S. City Average
+CUSR0000SEHA: Consumer Price Index for All Urban Consumers: Rent of Primary Residence in U.S. City Average
+CUUS0000SEHA: Consumer Price Index for All Urban Consumers: Rent of Primary Residence in U.S. City Average
+OPHNFB: Nonfarm Business Sector: Labor Productivity (Output per Hour) for All Employed Persons
+PRS85006091: Nonfarm Business Sector: Labor Productivity (Output per Hour) for All Employed Persons
+PRS85006092: Nonfarm Business Sector: Labor Productivity (Output per Hour) for All Employed Persons
+ECOMPCTSA: E-Commerce Retail Sales as a Percent of Total Sales
+ECOMPCTNSA: E-Commerce Retail Sales as a Percent of Total Sales
+PCETRIM12M159SFRBDAL: Trimmed Mean PCE Inflation Rate
+PCETRIM1M158SFRBDAL: Trimmed Mean PCE Inflation Rate
+PCETRIM6M680SFRBDAL: Trimmed Mean PCE Inflation Rate
+TCU: Capacity Utilization: Total Index
+CAPUTLB50001SQ: Capacity Utilization: Total Index
+USDONTD156N: Overnight London Interbank Offered Rate (LIBOR), based on U.S. Dollar
+GPDIC1: Real Gross Private Domestic Investment
+A006RL1Q225SBEA: Real Gross Private Domestic Investment
+GPDICA: Real Gross Private Domestic Investment
+B006RO1Q156NBEA: Real Gross Private Domestic Investment
+ND000335Q: Real Gross Private Domestic Investment
+A006RL1A225NBEA: Real Gross Private Domestic Investment
+NB000335Q: Real Gross Private Domestic Investment
+OB000335Q: Real Gross Private Domestic Investment
+DEXUSUK: U.S. Dollars to U.K. Pound Sterling Spot Exchange Rate
+EXUSUK: U.S. Dollars to U.K. Pound Sterling Spot Exchange Rate
+AEXUSUK: U.S. Dollars to U.K. Pound Sterling Spot Exchange Rate
+DGORDER: Manufacturers' New Orders: Durable Goods
+UMDMNO: Manufacturers' New Orders: Durable Goods
+WPU10170502: Producer Price Index by Commodity: Metals and Metal Products: Steel Wire, Stainless Steel
+POPTHM: Population
+B230RC0Q173SBEA: Population
+B230RC0A052NBEA: Population
+MANEMP: All Employees, Manufacturing
+CEU3000000001: All Employees, Manufacturing
+BAMLHYH0A0HYM2TRIV: ICE BofA US High Yield Index Total Return Index Value
+LNS11300060: Labor Force Participation Rate - 25-54 Yrs.
+LNU01300060: Labor Force Participation Rate - 25-54 Yrs.
+GPDI: Gross Private Domestic Investment
+GPDIA: Gross Private Domestic Investment
+NA000335Q: Gross Private Domestic Investment
+NC000335Q: Gross Private Domestic Investment
+AAA10Y: Moody's Seasoned Aaa Corporate Bond Yield Relative to Yield on 10-Year Treasury Constant Maturity
+AAA10YM: Moody's Seasoned Aaa Corporate Bond Yield Relative to Yield on 10-Year Treasury Constant Maturity
+AHETPI: Average Hourly Earnings of Production and Nonsupervisory Employees, Total Private
+CEU0500000008: Average Hourly Earnings of Production and Nonsupervisory Employees, Total Private
+WPSFD4131: Producer Price Index by Commodity: Final Demand: Finished Goods Less Foods and Energy
+WPUFD4131: Producer Price Index by Commodity: Final Demand: Finished Goods Less Foods and Energy
+WFRBST01134: Share of Total Net Worth Held by the Top 1% (99th to 100th Wealth Percentiles)
+BAMLH0A2HYBEY: ICE BofA Single-B US High Yield Index Effective Yield
+DGS3: Market Yield on U.S. Treasury Securities at 3-Year Constant Maturity
+GS3: Market Yield on U.S. Treasury Securities at 3-Year Constant Maturity
+WGS3YR: Market Yield on U.S. Treasury Securities at 3-Year Constant Maturity
+PRIME: Bank Prime Loan Rate Changes: Historical Dates of Changes and Rates
+TOTRESNS: Reserves of Depository Institutions: Total
+FDHBFRBN: Federal Debt Held by Federal Reserve Banks
+T30YIEM: 30-year Breakeven Inflation Rate
+PMSAVE: Personal Saving
+PSAVE: Personal Saving
+A071RC1A027NBEA: Personal Saving
+ECIWAG: Employment Cost Index: Wages and Salaries: Private Industry Workers
+JPNRGDPEXP: Real Gross Domestic Product for Japan
+NGDPRSAXDCJPQ: Real Gross Domestic Product for Japan
+NGDPRNSAXDCJPQ: Real Gross Domestic Product for Japan
+DEXCAUS: Canadian Dollars to U.S. Dollar Spot Exchange Rate
+EXCAUS: Canadian Dollars to U.S. Dollar Spot Exchange Rate
+AEXCAUS: Canadian Dollars to U.S. Dollar Spot Exchange Rate
+PCEDG: Personal Consumption Expenditures: Durable Goods
+PCDG: Personal Consumption Expenditures: Durable Goods
+NA000346Q: Personal Consumption Expenditures: Durable Goods
+PCDGA: Personal Consumption Expenditures: Durable Goods
+NC000346Q: Personal Consumption Expenditures: Durable Goods
+NASDAQCOM: NASDAQ Composite Index
+BCNSDODNS: Nonfinancial Corporate Business; Debt Securities and Loans; Liability, Level
+TCMILBSNNCB: Nonfinancial Corporate Business; Debt Securities and Loans; Liability, Level
+BOGZ1FL104104005A: Nonfinancial Corporate Business; Debt Securities and Loans; Liability, Level
+BOGZ1LA104104005A: Nonfinancial Corporate Business; Debt Securities and Loans; Liability, Level
+BOPGSTB: Trade Balance: Goods and Services, Balance of Payments Basis
+HTRUCKSSAAR: Motor Vehicle Retail Sales: Heavy Weight Trucks
+HTRUCKSSA: Motor Vehicle Retail Sales: Heavy Weight Trucks
+HTRUCKSNSA: Motor Vehicle Retail Sales: Heavy Weight Trucks
+GBP3MTD156N: 3-Month London Interbank Offered Rate (LIBOR), based on British Pound
+DEXMXUS: Mexican Pesos to U.S. Dollar Spot Exchange Rate
+EXMXUS: Mexican Pesos to U.S. Dollar Spot Exchange Rate
+AEXMXUS: Mexican Pesos to U.S. Dollar Spot Exchange Rate
+RETAILIRSA: Retailers: Inventories to Sales Ratio
+RETAILIRNSA: Retailers: Inventories to Sales Ratio
+W068RCQ027SBEA: Government total expenditures
+W068RC1A027NBEA: Government total expenditures
+HSN1F: New One Family Houses Sold: United States
+HSN1FNSA: New One Family Houses Sold: United States
+HSN1FA: New One Family Houses Sold: United States
+CORESTICKM159SFRBATL: Sticky Price Consumer Price Index less Food and Energy
+CORESTICKM158SFRBATL: Sticky Price Consumer Price Index less Food and Energy
+CORESTICKM157SFRBATL: Sticky Price Consumer Price Index less Food and Energy
+CORESTICKM679SFRBATL: Sticky Price Consumer Price Index less Food and Energy
+PCOPPUSDM: Global price of Copper
+PCOPPUSDQ: Global price of Copper
+PCOPPUSDA: Global price of Copper
+PCU484121484121: Producer Price Index by Industry: General Freight Trucking, Long-Distance Truckload
+WTISPLC: Spot Crude Oil Price: West Texas Intermediate (WTI)
+DHHNGSP: Henry Hub Natural Gas Spot Price
+MHHNGSP: Henry Hub Natural Gas Spot Price
+WHHNGSP: Henry Hub Natural Gas Spot Price
+AHHNGSP: Henry Hub Natural Gas Spot Price
+DSPI: Disposable Personal Income
+DPI: Disposable Personal Income
+A067RC1A027NBEA: Disposable Personal Income
+A067RP1Q027SBEA: Disposable Personal Income
+A067RP1A027NBEA: Disposable Personal Income
+TRFVOLUSM227NFWA: Vehicle Miles Traveled
+VMTD11: Vehicle Miles Traveled
+
+TRFVOLUSM227SFWA: Vehicle Miles Traveled
+VMT: Vehicle Miles Traveled
+MKTGDPCNA646NWDB: Gross Domestic Product for China
+CBBTCUSD: Coinbase Bitcoin
+WSHOMCB: Assets: Securities Held Outright: Mortgage-Backed Securities: Wednesday Level
+WEI: Weekly Economic Index (Lewis-Mertens-Stock)
+WPU07110224: Producer Price Index by Commodity: Rubber and Plastic Products: Synthetic Rubber, Including Styrene-Butadiene Rubber (SBR) and Ethylene Propylene
+WPU0711: Producer Price Index by Commodity: Rubber and Plastic Products: Synthetic Rubber, Including Styrene-Butadiene Rubber (SBR) and Ethylene Propylene
+CURRSL: Currency Component of M1
+CURRNS: Currency Component of M1
+WCURRNS: Currency Component of M1
+DTB1YR: 1-Year Treasury Bill Secondary Market Rate
+TB1YR: 1-Year Treasury Bill Secondary Market Rate
+WTB1YR: 1-Year Treasury Bill Secondary Market Rate
+SLOAS: Student Loans Owned and Securitized
+BAMLC0A1CAAAEY: ICE BofA AAA US Corporate Index Effective Yield
+SIPOVGINIUSA: GINI Index for the United States
+DRCCLACBS: Delinquency Rate on Credit Card Loans, All Commercial Banks
+DRCCLACBN: Delinquency Rate on Credit Card Loans, All Commercial Banks
+NFCI: Chicago Fed National Financial Conditions Index
+NEWORDER: Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft
+UNXANO: Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft
+IC4WSA: 4-Week Moving Average of Initial Claims
+BAMLC0A2CAAEY: ICE BofA AA US Corporate Index Effective Yield
+TOTLL: Loans and Leases in Bank Credit, All Commercial Banks
+LOANS: Loans and Leases in Bank Credit, All Commercial Banks
+H8B1020NCBCMG: Loans and Leases in Bank Credit, All Commercial Banks
+LOANSNSA: Loans and Leases in Bank Credit, All Commercial Banks
+LLBACBQ158SBOG: Loans and Leases in Bank Credit, All Commercial Banks
+TOTLLNSA: Loans and Leases in Bank Credit, All Commercial Banks
+H8B1020NCBCAG: Loans and Leases in Bank Credit, All Commercial Banks
+DDDM01USA156NWDB: Stock Market Capitalization to GDP for United States
+NETEXP: Net Exports of Goods and Services
+A019RC1A027NBEA: Net Exports of Goods and Services
+NA000374Q: Net Exports of Goods and Services
+MULT: M1 Money Multiplier (DISCONTINUED)
+DISMULT: M1 Money Multiplier (DISCONTINUED)
+BAMLHE00EHYIEY: ICE BofA Euro High Yield Index Effective Yield
+WPU091405: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Corrugated Paperboard in Sheets and Rolls, Lined and Unlined
+WPU09140551: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Corrugated Paperboard in Sheets and Rolls, Lined and Unlined
+PCUOMFGOMFG: Producer Price Index by Industry: Total Manufacturing Industries
+LNS12300060: Employment-Population Ratio - 25-54 Yrs.
+GNP: Gross National Product
+GNPA: Gross National Product
+A001RP1A027NBEA: Gross National Product
+A001RP1Q027SBEA: Gross National Product
+HQMCB10YR: 10-Year High Quality Market (HQM) Corporate Bond Spot Rate
+TLAACBW027SBOG: Total Assets, All Commercial Banks
+TLAACBM027SBOG: Total Assets, All Commercial Banks
+H8B1151NCBCMG: Total Assets, All Commercial Banks
+TLAACBM027NBOG: Total Assets, All Commercial Banks
+TLAACBQ158SBOG: Total Assets, All Commercial Banks
+TLAACBW027NBOG: Total Assets, All Commercial Banks
+H8B1151NCBCAG: Total Assets, All Commercial Banks
+USEPUINDXD: Economic Policy Uncertainty Index for United States
+USEPUINDXM: Economic Policy Uncertainty Index for United States
+MEDCPIM158SFRBCLE: Median Consumer Price Index
+MEDCPIM159SFRBCLE: Median Consumer Price Index
+MEDCPIM094SFRBCLE: Median Consumer Price Index
+MEDCPIM157SFRBCLE: Median Consumer Price Index
+HOSINVUSM495N: Existing Home Sales: Housing Inventory
+WPU0811: Producer Price Index by Commodity: Lumber and Wood Products: Softwood Lumber
+WPS0811: Producer Price Index by Commodity: Lumber and Wood Products: Softwood Lumber
+BOGZ1FL663067003Q: Security Brokers and Dealers; Margin Accounts at Brokers and Dealers; Asset, Level
+BOGZ1FL663067003A: Security Brokers and Dealers; Margin Accounts at Brokers and Dealers; Asset, Level
+TOTBKCR: Bank Credit, All Commercial Banks
+LOANINV: Bank Credit, All Commercial Banks
+H8B1001NCBCMG: Bank Credit, All Commercial Banks
+LOANINVNSA: Bank Credit, All Commercial Banks
+TOTBKCRNSA: Bank Credit, All Commercial Banks
+H8B1001NCBCAG: Bank Credit, All Commercial Banks
+BC0ACBQ158SBOG: Bank Credit, All Commercial Banks
+DFII30: Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Inflation-Indexed
+FII30: Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Inflation-Indexed
+WFII30: Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Inflation-Indexed
+USACPIALLMINMEI: Consumer Price Index: All Items for the United States
+USACPIALLAINMEI: Consumer Price Index: All Items for the United States
+JHDUSRGDPBR: Dates of U.S. recessions as inferred by GDP-based recession indicator
+CAUR: Unemployment Rate in California
+LAUST060000000000003A: Unemployment Rate in California
+CAURN: Unemployment Rate in California
+NPPTTL: Total Nonfarm Private Payroll Employment
+WPU083: Producer Price Index by Commodity: Lumber and Wood Products: Plywood
+LNS14000031: Unemployment Rate - 20 Yrs. & over, Black or African American Men
+LNU04000031: Unemployment Rate - 20 Yrs. & over, Black or African American Men
+M12MTVUSM227NFWA: Moving 12-Month Total Vehicle Miles Traveled
+M12MTVUSM227SFWA: Moving 12-Month Total Vehicle Miles Traveled
+PCU33443344: Producer Price Index by Industry: Semiconductor and Other Electronic Component Manufacturing
+PCU3344133441: Producer Price Index by Industry: Semiconductor and Other Electronic Component Manufacturing
+GDPNOW: GDPNow
+FRGSHPUSM649NCIS: Cass Freight Index: Shipments
+LXXRSA: S&P/Case-Shiller CA-Los Angeles Home Price Index
+LXXRNSA: S&P/Case-Shiller CA-Los Angeles Home Price Index
+DAUPSA: Domestic Auto Production
+DAUPNSA: Domestic Auto Production
+QJPN628BIS: Residential Property Prices for Japan
+QJPN368BIS: Residential Property Prices for Japan
+OBMMIJUMBO30YF: 30-Year Fixed Rate Jumbo Mortgage Index
+CLVMNACSCAB1GQDE: Real Gross Domestic Product for Germany
+NGDPRXDCDEA: Real Gross Domestic Product for Germany
+CUSR0000SETA01: Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
+NGDPRSAXDCDEQ: Real Gross Domestic Product for Germany
+CLVMNACNSAB1GQDE: Real Gross Domestic Product for Germany
+NGDPRNSAXDCDEQ: Real Gross Domestic Product for Germany
+TTLCONS: Total Construction Spending: Total Construction in the United States
+TTLCON: Total Construction Spending: Total Construction in the United States
+MPCTXXXXS: Total Construction Spending: Total Construction in the United States
+BAMLHE00EHYIOAS: ICE BofA Euro High Yield Index Option-Adjusted Spread
+FLSTHPI: All-Transactions House Price Index for Florida
+DEXKOUS: South Korean Won to U.S. Dollar Spot Exchange Rate
+EXKOUS: South Korean Won to U.S. Dollar Spot Exchange Rate
+AEXKOUS: South Korean Won to U.S. Dollar Spot Exchange Rate
+LNS11300001: Labor Force Participation Rate - Men
+LNU01300001: Labor Force Participation Rate - Men
+ICERATES1100USD5Y: ICE Swap Rates, 11:00 A.M. (London Time), Based on U.S. Dollar, 5 Year Tenor
+PNGASEUUSDM: Global price of Natural gas, EU
+PNGASEUUSDA: Global price of Natural gas, EU
+PNGASEUUSDQ: Global price of Natural gas, EU
+RPONTSYD: Overnight Repurchase Agreements: Treasury Securities Purchased by the Federal Reserve in the Temporary Open Market Operations
+CLVMNACSCAB1GQUK: Real Gross Domestic Product for United Kingdom
+CLVMNACNSAB1GQUK: Real Gross Domestic Product for United Kingdom
+CLVMNACSAB1GQUK: Real Gross Domestic Product for United Kingdom
+CHNCPIALLMINMEI: Consumer Price Index: All Items for China
+CHNCPIALLQINMEI: Consumer Price Index: All Items for China
+CHNCPIALLAINMEI: Consumer Price Index: All Items for China
+LMJVTTUVUSM647S: Total Unfilled Job Vacancies for the United States
+LMJVTTUVUSQ647S: Total Unfilled Job Vacancies for the United States
+LMJVTTUVUSA647N: Total Unfilled Job Vacancies for the United States
+LMJVTTUVUSM647N: Total Unfilled Job Vacancies for the United States
+LMJVTTUVUSA647S: Total Unfilled Job Vacancies for the United States
+LMJVTTUVUSQ647N: Total Unfilled Job Vacancies for the United States
+ACTLISCOUUS: Housing Inventory: Active Listing Count in the United States
+SFXRSA: S&P/Case-Shiller CA-San Francisco Home Price Index
+SFXRNSA: S&P/Case-Shiller CA-San Francisco Home Price Index
+DFEDTARL: Federal Funds Target Range - Lower Limit
+PWHEAMTUSDM: Global price of Wheat
+PWHEAMTUSDA: Global price of Wheat
+PWHEAMTUSDQ: Global price of Wheat
+COMREPUSQ159N: Commercial Real Estate Prices for United States
+W006RC1Q027SBEA: Federal government current tax receipts
+W006RC1A027NBEA: Federal government current tax receipts
+NA000327Q: Federal government current tax receipts
+POILBREUSDM: Global price of Brent Crude
+POILBREUSDQ: Global price of Brent Crude
+POILBREUSDA: Global price of Brent Crude
+DTWEXAFEGS: Nominal Advanced Foreign Economies U.S. Dollar Index
+TWEXAFEGSMTH: Nominal Advanced Foreign Economies U.S. Dollar Index
+TWEXAFEGSANL: Nominal Advanced Foreign Economies U.S. Dollar Index
+ECBASSETSW: Central Bank Assets for Euro Area (11-19 Countries)
+SAHMREALTIME: Real-time Sahm Rule Recession Indicator
+CUUR0000SETA01: Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
+
+CUSR0000SETA01: Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
+CUUS0000SETA01: Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
+CPIMEDSL: Consumer Price Index for All Urban Consumers: Medical Care in U.S. City Average
+CPIMEDNS: Consumer Price Index for All Urban Consumers: Medical Care in U.S. City Average
+CUUS0000SAM: Consumer Price Index for All Urban Consumers: Medical Care in U.S. City Average
+AUINSA: Domestic Auto Inventories
+FYONGDA188S: Federal Net Outlays as Percent of Gross Domestic Product
+RSAFS: Advance Retail Sales: Retail Trade and Food Services
+RSAFSNA: Advance Retail Sales: Retail Trade and Food Services
+MARTSMPCSM44X72USS: Advance Retail Sales: Retail Trade and Food Services
+MARTSMPCSM44X72USN: Advance Retail Sales: Retail Trade and Food Services
+PIORECRUSDM: Global price of Iron Ore
+PIORECRUSDQ: Global price of Iron Ore
+PIORECRUSDA: Global price of Iron Ore
+DTWEXM: Nominal Major Currencies U.S. Dollar Index (Goods Only) (DISCONTINUED)
+TWEXMMTH: Nominal Major Currencies U.S. Dollar Index (Goods Only) (DISCONTINUED)
+TWEXMANL: Nominal Major Currencies U.S. Dollar Index (Goods Only) (DISCONTINUED)
+GDPC1CTM: FOMC Summary of Economic Projections for the Growth Rate of Real Gross Domestic Product, Central Tendency, Midpoint
+PCES: Personal Consumption Expenditures: Services
+PCESV: Personal Consumption Expenditures: Services
+PCESVA: Personal Consumption Expenditures: Services
+NA000350Q: Personal Consumption Expenditures: Services
+NC000350Q: Personal Consumption Expenditures: Services
+BAMLH0A2HYB: ICE BofA Single-B US High Yield Index Option-Adjusted Spread
+MYAGM2USM052S: M2 for United States
+MYAGM2USM052N: M2 for United States
+JPNCPIALLMINMEI: Consumer Price Index of All Items in Japan
+JPNCPIALLQINMEI: Consumer Price Index of All Items in Japan
+PCU32733273: Producer Price Index by Industry: Cement and Concrete Product Manufacturing
+MANMM101USM189S: M1 for the United States
+MANMM101USA189S: M1 for the United States
+MANMM101USM657S: M1 for the United States
+MANMM101USQ189S: M1 for the United States
+MANMM101USA657S: M1 for the United States
+MANMM101USM189N: M1 for the United States
+MANMM101USA189N: M1 for the United States
+MANMM101USQ657S: M1 for the United States
+MANMM101USQ189N: M1 for the United States
+TNWBSHNO: Households and Nonprofit Organizations; Net Worth, Level
+HNONWRA027N: Households and Nonprofit Organizations; Net Worth, Level
+IPMAN: Industrial Production: Manufacturing (NAICS)
+IPGMFN: Industrial Production: Manufacturing (NAICS)
+IPGMFSQ: Industrial Production: Manufacturing (NAICS)
+IPGMFNQ: Industrial Production: Manufacturing (NAICS)
+ICERATES1100USD10Y: ICE Swap Rates, 11:00 A.M. (London Time), Based on U.S. Dollar, 10 Year Tenor
+RRVRUSQ156N: Rental Vacancy Rate in the United States
+IRLTLT01DEM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Germany
+IRLTLT01DEQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Germany
+IRLTLT01DEA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Germany
+CNP16OV: Population Level
+MZM: MZM Money Stock (DISCONTINUED)
+MZMSL: MZM Money Stock (DISCONTINUED)
+MZMNS: MZM Money Stock (DISCONTINUED)
+WMZMNS: MZM Money Stock (DISCONTINUED)
+FEDTARMD: FOMC Summary of Economic Projections for the Fed Funds Rate, Median
+CCLACBW027SBOG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+H8B1247NCBCMG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+CCLACBM027SBOG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+CCLACBW027NBOG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+CCLACBM027NBOG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+CCLACBQ158SBOG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+H8B1247NCBCAG: Consumer Loans: Credit Cards and Other Revolving Plans, All Commercial Banks
+TOTALSL: Total Consumer Credit Owned and Securitized
+TOTALNS: Total Consumer Credit Owned and Securitized
+BAMLEMCBPIOAS: ICE BofA Emerging Markets Corporate Plus Index Option-Adjusted Spread
+MEHOINUSA646N: Median Household Income in the United States
+BAMLEMHBHYCRPIOAS: ICE BofA High Yield Emerging Markets Corporate Plus Index Option-Adjusted Spread
+WPU061: Producer Price Index by Commodity: Chemicals and Allied Products: Industrial Chemicals
+WPS061: Producer Price Index by Commodity: Chemicals and Allied Products: Industrial Chemicals
+FGEXPND: Federal Government: Current Expenditures
+NA000283Q: Federal Government: Current Expenditures
+PNGASJPUSDM: Global price of LNG, Asia
+PNGASJPUSDQ: Global price of LNG, Asia
+PNGASJPUSDA: Global price of LNG, Asia
+RBUSBIS: Real Broad Effective Exchange Rate for United States
+WPU081: Producer Price Index by Commodity: Lumber and Wood Products: Lumber
+WPS081: Producer Price Index by Commodity: Lumber and Wood Products: Lumber
+WILL5000PRFC: Wilshire 5000 Full Cap Price Index
+WDTGAL: Liabilities and Capital: Liabilities: Deposits with F.R. Banks, Other Than Reserve Balances: U.S. Treasury, General Account: Wednesday Level
+DGS7: Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity
+WGS7YR: Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity
+GS7: Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity
+BASE: St. Louis Adjusted Monetary Base (DISCONTINUED)
+AMBSL: St. Louis Adjusted Monetary Base (DISCONTINUED)
+AMBNS: St. Louis Adjusted Monetary Base (DISCONTINUED)
+BASENS: St. Louis Adjusted Monetary Base (DISCONTINUED)
+DISAMBSL: St. Louis Adjusted Monetary Base (DISCONTINUED)
+DISBASE: St. Louis Adjusted Monetary Base (DISCONTINUED)
+DISAMBNS: St. Louis Adjusted Monetary Base (DISCONTINUED)
+DSBASENS: St. Louis Adjusted Monetary Base (DISCONTINUED)
+RTFPNAUSA632NRUG: Total Factor Productivity at Constant National Prices for United States
+M1REAL: Real M1 Money Stock
+IITTRHB: U.S Individual Income Tax: Tax Rates for Regular Tax: Highest Bracket
+TCMDO: All Sectors; Debt Securities and Loans; Liability, Level
+BOGZ1FL894104005A: All Sectors; Debt Securities and Loans; Liability, Level
+WPU10170674: Producer Price Index by Commodity: Metals and Metal Products: Steel Pipe and Tube, Stainless Steel
+TB4WK: 4-Week Treasury Bill Secondary Market Rate
+DTB4WK: 4-Week Treasury Bill Secondary Market Rate
+WTB4WK: 4-Week Treasury Bill Secondary Market Rate
+BAMLC0A3CA: ICE BofA Single-A US Corporate Index Option-Adjusted Spread
+RRPONTTLD: Overnight Reverse Repurchase Agreements: Total Securities Sold by the Federal Reserve in the Temporary Open Market Operations
+DPCERE1Q156NBEA: Shares of gross domestic product: Personal consumption expenditures
+DPCERE1A156NBEA: Shares of gross domestic product: Personal consumption expenditures
+WPU10170301: Producer Price Index by Commodity: Metals and Metal Products: Hot Rolled Steel Sheet and Strip, Including Tin Mill Products
+WPU101703: Producer Price Index by Commodity: Metals and Metal Products: Hot Rolled Steel Sheet and Strip, Including Tin Mill Products
+IMPGSC1: Real imports of goods and services
+IMPGSCA: Real imports of goods and services
+ND000342Q: Real imports of goods and services
+A021RL1Q158SBEA: Real imports of goods and services
+A021RO1Q156NBEA: Real imports of goods and services
+NB000342Q: Real imports of goods and services
+OB000342Q: Real imports of goods and services
+A021RL1A158NBEA: Real imports of goods and services
+FIXHAI: Housing Affordability Index (Fixed)
+SEXRNSA: S&P/Case-Shiller WA-Seattle Home Price Index
+SEXRSA: S&P/Case-Shiller WA-Seattle Home Price Index
+WPSFD49207: Producer Price Index by Commodity: Final Demand: Finished Goods
+WPUFD49207: Producer Price Index by Commodity: Final Demand: Finished Goods
+LABSHPUSA156NRUG: Share of Labour Compensation in GDP at Current National Prices for United States
+CPIFABSL: Consumer Price Index for All Urban Consumers: Food and Beverages in U.S. City Average
+CPIFABNS: Consumer Price Index for All Urban Consumers: Food and Beverages in U.S. City Average
+CUUS0000SAF: Consumer Price Index for All Urban Consumers: Food and Beverages in U.S. City Average
+CPGDPAI: Contributions to Percent Change in Real GDP by Industry: Gross Domestic Product
+DRTSCILM: Net Percentage of Domestic Banks Tightening Standards for Commercial and Industrial Loans to Large and Middle-Market Firms
+NROUST: Natural Rate of Unemployment (Short-Term) (DISCONTINUED)
+TEMPHELPS: All Employees, Temporary Help Services
+TEMPHELPN: All Employees, Temporary Help Services
+BAMLC0A0CMEY: ICE BofA US Corporate Index Effective Yield
+EXPGS: Exports of Goods and Services
+IEAXGS: Exports of Goods and Services
+EXPGSA: Exports of Goods and Services
+NA000352Q: Exports of Goods and Services
+IEAXGSA: Exports of Goods and Services
+NC000352Q: Exports of Goods and Services
+IEAXGSN: Exports of Goods and Services
+FYOIGDA188S: Federal Outlays: Interest as Percent of Gross Domestic Product
+WPUSI012011: Producer Price Index by Commodity: Special Indexes: Construction Materials
+FYFRGDA188S: Federal Receipts as Percent of Gross Domestic Product
+LNS14000024: Unemployment Rate - 20 Yrs. & over
+LNU04000024: Unemployment Rate - 20 Yrs. & over
+PALUMUSDM: Global price of Aluminum
+PALUMUSDQ: Global price of Aluminum
+PALUMUSDA: Global price of Aluminum
+BAMLC0A1CAAA: ICE BofA AAA US Corporate Index Option-Adjusted Spread
+PRUBBUSDM: Global price of Rubber
+PRUBBUSDQ: Global price of Rubber
+PRUBBUSDA: Global price of Rubber
+NYXRSA: S&P/Case-Shiller NY-New York Home Price Index
+NYXRNSA: S&P/Case-Shiller NY-New York Home Price Index
+ECOMSA: E-Commerce Retail Sales
+ECOMNSA: E-Commerce Retail Sales
+RESPPANWW: Assets: Total Assets: Total Assets: Wednesday Level
+SOFR30DAYAVG: 30-Day Average SOFR
+PMAIZMTUSDM: Global price of Corn
+PMAIZMTUSDQ: Global price of Corn
+PMAIZMTUSDA: Global price of Corn
+PCOALAUUSDM: Global price of Coal, Australia
+PCOALAUUSDQ: Global price of Coal, Australia
+PCOALAUUSDA: Global price of Coal, Australia
+STLENI: St. Louis Fed Economic News Index: Real GDP Nowcast
+NGDPPOT: Nominal Potential Gross Domestic Product
+DRALACBS: Delinquency Rate on All Loans, All Commercial Banks
+DRALACBN: Delinquency Rate on All Loans, All Commercial Banks
+M0892AUSM156SNBR: Unemployment Rate for United States
+Q0892BUSQ156SNBR: Unemployment Rate for United States
+M0892BUSM156SNBR: Unemployment Rate for United States
+M0892CUSM156NNBR: Unemployment Rate for United States
+ICERATES1200EUR5Y: ICE Swap Rates, 12:00 P.M. (London Time), Based on Euros, 5 Year Tenor
+AISRSA: Auto Inventory/Sales Ratio
+GBRCPIALLMINMEI: Consumer Price Index of All Items in the United Kingdom
+GBRCPIALLQINMEI: Consumer Price Index of All Items in the United Kingdom
+FLUR: Unemployment Rate in Florida
+FLURN: Unemployment Rate in Florida
+LAUST120000000000003A: Unemployment Rate in Florida
+SAVINGS: Savings Deposits: Total (DISCONTINUED)
+SAVINGSL: Savings Deposits: Total (DISCONTINUED)
+WSAVNS: Savings Deposits: Total (DISCONTINUED)
+SAVINGNS: Savings Deposits: Total (DISCONTINUED)
+WPU102505: Producer Price Index by Commodity: Metals and Metal Products: Titanium and Titanium-Base Alloy Mill Shapes
+WPU10250505: Producer Price Index by Commodity: Metals and Metal Products: Titanium and Titanium-Base Alloy Mill Shapes
+BUSINV: Total Business Inventories
+TOTBUSMPCIMSA: Total Business Inventories
+TOTBUSIMNSA: Total Business Inventories
+TOTBUSMPCIMNSA: Total Business Inventories
+JPNNGDP: Gross Domestic Product for Japan
+MKTGDPJPA646NWDB: Gross Domestic Product for Japan
+USALORSGPNOSTSAM: Leading Indicators OECD: Reference series: Gross Domestic Product (GDP): Normalised for the United States
+PCU44414441: Producer Price Index by Industry: Building Material and Supplies Dealers
+SDXRSA: S&P/Case-Shiller CA-San Diego Home Price Index
+SDXRNSA: S&P/Case-Shiller CA-San Diego Home Price Index
+BAMLC0A2CAA: ICE BofA AA US Corporate Index Option-Adjusted Spread
+ETOTALUSQ176N: Housing Inventory Estimate: Total Housing Units in the United States
+HOUST1F: New Privately-Owned Housing Units Started: Single-Family Units
+HOUST1FNSA: New Privately-Owned Housing Units Started: Single-Family Units
+NYSTHPI: All-Transactions House Price Index for New York
+USNIM: Net Interest Margin for all U.S. Banks (DISCONTINUED)
+BAMLC0A3CAEY: ICE BofA Single-A US Corporate Index Effective Yield
+IR3TBB01AUQ156N: 3-Month or 90-day Rates and Yields: Bank Bills for Australia
+IR3TBB01AUM156N: 3-Month or 90-day Rates and Yields: Bank Bills for Australia
+IR3TBB01AUA156N: 3-Month or 90-day Rates and Yields: Bank Bills for Australia
+FEDMINNFRWG: Federal Minimum Hourly Wage for Nonfarm Workers for the United States
+GCEC1: Real Government Consumption Expenditures and Gross Investment
+GCECA: Real Government Consumption Expenditures and Gross Investment
+A822RL1Q225SBEA: Real Government Consumption Expenditures and Gross Investment
+A822RO1Q156NBEA: Real Government Consumption Expenditures and Gross Investment
+ND000333Q: Real Government Consumption Expenditures and Gross Investment
+A822RL1A225NBEA: Real Government Consumption Expenditures and Gross Investment
+NB000333Q: Real Government Consumption Expenditures and Gross Investment
+OB000333Q: Real Government Consumption Expenditures and Gross Investment
+POLVOILUSDM: Global price of Olive Oil
+POLVOILUSDA: Global price of Olive Oil
+POLVOILUSDQ: Global price of Olive Oil
+OBFR: Overnight Bank Funding Rate
+MBCURRCIR: Monetary Base; Currency in Circulation
+APU0000708111: Average Price: Eggs, Grade A, Large (Cost per Dozen) in U.S. City Average
+CHNGDPNQDSMEI: Current Price Gross Domestic Product in China
+CHNGDPNADSMEI: Current Price Gross Domestic Product in China
+WPU10230103: Producer Price Index by Commodity: Metals and Metal Products: Yellow Brass Scrap
+PCEND: Personal Consumption Expenditures: Nondurable Goods
+PCND: Personal Consumption Expenditures: Nondurable Goods
+PCNDA: Personal Consumption Expenditures: Nondurable Goods
+NA000348Q: Personal Consumption Expenditures: Nondurable Goods
+NC000348Q: Personal Consumption Expenditures: Nondurable Goods
+FDHBFIN: Federal Debt Held by Foreign and International Investors
+JPNASSETS: Bank of Japan: Total Assets for Japan
+TXUR: Unemployment Rate in Texas
+TXURN: Unemployment Rate in Texas
+LAUST480000000000003A: Unemployment Rate in Texas
+RRSFS: Advance Real Retail and Food Services Sales
+MSPNHSUS: Median Sales Price for New Houses Sold in the United States
+MSPNHSUSA: Median Sales Price for New Houses Sold in the United States
+IRLTLT01JPM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Japan
+IRLTLT01JPA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Japan
+IRLTLT01JPQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Japan
+NAEXKP01CAQ189S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAQ657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAA657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAQ661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAA189S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAA661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+DCPF3M: 90-Day AA Financial Commercial Paper Interest Rate
+RIFSPPFAAD90NB: 90-Day AA Financial Commercial Paper Interest Rate
+CPF3M: 90-Day AA Financial Commercial Paper Interest Rate
+WCPF3M: 90-Day AA Financial Commercial Paper Interest Rate
+PRAWMINDEXM: Global price of Agr. Raw Material Index
+PRAWMINDEXQ: Global price of Agr. Raw Material Index
+PRAWMINDEXA: Global price of Agr. Raw Material Index
+DEMDEPSL: Demand Deposits
+WDDNS: Demand Deposits
+DEMDEPNS: Demand Deposits
+FEDMINNFRWG: Federal Minimum Hourly Wage for Nonfarm Workers for the United States
+GCEC1: Real Government Consumption Expenditures and Gross Investment
+GCECA: Real Government Consumption Expenditures and Gross Investment
+A822RL1Q225SBEA: Real Government Consumption Expenditures and Gross Investment
+A822RO1Q156NBEA: Real Government Consumption Expenditures and Gross Investment
+ND000333Q: Real Government Consumption Expenditures and Gross Investment
+A822RL1A225NBEA: Real Government Consumption Expenditures and Gross Investment
+NB000333Q: Real Government Consumption Expenditures and Gross Investment
+OB000333Q: Real Government Consumption Expenditures and Gross Investment
+POLVOILUSDM: Global price of Olive Oil
+POLVOILUSDA: Global price of Olive Oil
+POLVOILUSDQ: Global price of Olive Oil
+OBFR: Overnight Bank Funding Rate
+MBCURRCIR: Monetary Base; Currency in Circulation
+APU0000708111: Average Price: Eggs, Grade A, Large (Cost per Dozen) in U.S. City Average
+CHNGDPNQDSMEI: Current Price Gross Domestic Product in China
+CHNGDPNADSMEI: Current Price Gross Domestic Product in China
+WPU10230103: Producer Price Index by Commodity: Metals and Metal Products: Yellow Brass Scrap
+PCEND: Personal Consumption Expenditures: Nondurable Goods
+PCND: Personal Consumption Expenditures: Nondurable Goods
+PCNDA: Personal Consumption Expenditures: Nondurable Goods
+NA000348Q: Personal Consumption Expenditures: Nondurable Goods
+NC000348Q: Personal Consumption Expenditures: Nondurable Goods
+FDHBFIN: Federal Debt Held by Foreign and International Investors
+JPNASSETS: Bank of Japan: Total Assets for Japan
+TXUR: Unemployment Rate in Texas
+TXURN: Unemployment Rate in Texas
+LAUST480000000000003A: Unemployment Rate in Texas
+RRSFS: Advance Real Retail and Food Services Sales
+MSPNHSUS: Median Sales Price for New Houses Sold in the United States
+MSPNHSUSA: Median Sales Price for New Houses Sold in the United States
+IRLTLT01JPM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Japan
+IRLTLT01JPA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Japan
+IRLTLT01JPQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Japan
+NAEXKP01CAQ189S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAQ657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAA657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAQ661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAA189S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+NAEXKP01CAA661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Canada
+DCPF3M: 90-Day AA Financial Commercial Paper Interest Rate
+RIFSPPFAAD90NB: 90-Day AA Financial Commercial Paper Interest Rate
+CPF3M: 90-Day AA Financial Commercial Paper Interest Rate
+WCPF3M: 90-Day AA Financial Commercial Paper Interest Rate
+PRAWMINDEXM: Global price of Agr. Raw Material Index
+PRAWMINDEXQ: Global price of Agr. Raw Material Index
+PRAWMINDEXA: Global price of Agr. Raw Material Index
+DEMDEPSL: Demand Deposits
+WDDNS: Demand Deposits
+DEMDEPNS: Demand Deposits
+
+DLTIIT: Treasury Long-Term Average (Over 10 Years), Inflation-Indexed
+LTIIT: Treasury Long-Term Average (Over 10 Years), Inflation-Indexed
+WLTIIT: Treasury Long-Term Average (Over 10 Years), Inflation-Indexed
+NIKKEI225: Nikkei Stock Average, Nikkei 225
+MYAGM2CNM189N: M2 for China
+CLVMNACSCAB1GQIT: Real Gross Domestic Product for Italy
+NGDPRXDCITA: Real Gross Domestic Product for Italy
+NGDPRSAXDCITQ: Real Gross Domestic Product for Italy
+CLVMNACNSAB1GQIT: Real Gross Domestic Product for Italy
+NGDPRNSAXDCITQ: Real Gross Domestic Product for Italy
+ICERATES1100USD3Y: ICE Swap Rates, 11:00 A.M. (London Time), Based on U.S. Dollar, 3 Year Tenor
+M318501Q027NBEA: Federal government budget surplus or deficit (-)
+M318501A027NBEA: Federal government budget surplus or deficit (-)
+PCU3272132721: Producer Price Index by Industry: Glass and Glass Product Manufacturing
+PCU32723272: Producer Price Index by Industry: Glass and Glass Product Manufacturing
+TERMCBAUTO48NS: Finance Rate on Consumer Installment Loans at Commercial Banks, New Autos 48 Month Loan
+LNS15000000: Not in Labor Force
+LNU05000000: Not in Labor Force
+GASREGCOVW: US Regular Conventional Gas Price
+GASREGCOVM: US Regular Conventional Gas Price
+GASREGCOVA: US Regular Conventional Gas Price
+M1109BUSM293NNBR: Dow-Jones Industrial Stock Price Index for United States
+M1109AUSM293NNBR: Dow-Jones Industrial Stock Price Index for United States
+QCNR628BIS: Real Residential Property Prices for China
+QCNR368BIS: Real Residential Property Prices for China
+PHXRNSA: S&P/Case-Shiller AZ-Phoenix Home Price Index
+PHXRSA: S&P/Case-Shiller AZ-Phoenix Home Price Index
+WPU031502411: Producer Price Index by Commodity: Textile Products and Apparel: Polyester Manufactured Fibers
+PPOILUSDM: Global price of Palm Oil
+PPOILUSDQ: Global price of Palm Oil
+PPOILUSDA: Global price of Palm Oil
+CWUR0000SA0: Consumer Price Index for All Urban Wage Earners and Clerical Workers: All Items in U.S. City Average
+CWSR0000SA0: Consumer Price Index for All Urban Wage Earners and Clerical Workers: All Items in U.S. City Average
+QUSR628BIS: Real Residential Property Prices for United States
+QUSR368BIS: Real Residential Property Prices for United States
+HOSMEDUSM052N: Median Sales Price of Existing Homes
+DCPN3M: 90-Day AA Nonfinancial Commercial Paper Interest Rate
+RIFSPPNAAD90NB: 90-Day AA Nonfinancial Commercial Paper Interest Rate
+CPN3M: 90-Day AA Nonfinancial Commercial Paper Interest Rate
+WCPN3M: 90-Day AA Nonfinancial Commercial Paper Interest Rate
+RGDPNACNA666NRUG: Real GDP at Constant National Prices for China
+USPRIV: All Employees, Total Private
+CEU0500000001: All Employees, Total Private
+DFEDTAR: Federal Funds Target Rate (DISCONTINUED)
+UEMPMEAN: Average Weeks Unemployed
+LNU03008275: Average Weeks Unemployed
+DEXINUS: Indian Rupees to U.S. Dollar Spot Exchange Rate
+EXINUS: Indian Rupees to U.S. Dollar Spot Exchange Rate
+AEXINUS: Indian Rupees to U.S. Dollar Spot Exchange Rate
+AWHAETP: Average Weekly Hours of All Employees, Total Private
+CEU0500000002: Average Weekly Hours of All Employees, Total Private
+TWEXB: Trade Weighted U.S. Dollar Index: Broad, Goods (DISCONTINUED)
+MDSP: Mortgage Debt Service Payments as a Percent of Disposable Personal Income
+FYGFGDQ188S: Federal Debt Held by the Public as Percent of Gross Domestic Product
+DEXBZUS: Brazilian Reals to U.S. Dollar Spot Exchange Rate
+EXBZUS: Brazilian Reals to U.S. Dollar Spot Exchange Rate
+AEXBZUS: Brazilian Reals to U.S. Dollar Spot Exchange Rate
+PCU32221132221102: Producer Price Index by Industry: Corrugated and Solid Fiber Box Manufacturing: Corrugated Shipping Containers for Paper and Allied Products
+A939RC0Q052SBEA: Gross domestic product per capita
+A939RC0A052NBEA: Gross domestic product per capita
+MORTGAGE5US: 5/1-Year Adjustable Rate Mortgage Average in the United States
+USCONS: All Employees, Construction
+CEU2000000001: All Employees, Construction
+DRCLACBS: Delinquency Rate on Consumer Loans, All Commercial Banks
+DRCLACBN: Delinquency Rate on Consumer Loans, All Commercial Banks
+CUSR0000SEHC: Consumer Price Index for All Urban Consumers: Owners' Equivalent Rent of Residences in U.S. City Average
+CUUR0000SEHC: Consumer Price Index for All Urban Consumers: Owners' Equivalent Rent of Residences in U.S. City Average
+CUUS0000SEHC: Consumer Price Index for All Urban Consumers: Owners' Equivalent Rent of Residences in U.S. City Average
+USAGDPDEFQISMEI: GDP Implicit Price Deflator in United States
+USAGDPDEFAISMEI: GDP Implicit Price Deflator in United States
+CLVMNACSCAB1GQFR: Real Gross Domestic Product for France
+NGDPRXDCFRA: Real Gross Domestic Product for France
+NGDPRSAXDCFRQ: Real Gross Domestic Product for France
+CLVMNACNSAB1GQFR: Real Gross Domestic Product for France
+NGDPRNSAXDCFRQ: Real Gross Domestic Product for France
+FYGFDPUN: Federal Debt Held by the Public
+A053RC1Q027SBEA: National income: Corporate profits before tax (without IVA and CCAdj)
+VXVCLS: CBOE S&P 500 3-Month Volatility Index
+T20YIEM: 20-year Breakeven Inflation Rate
+DPROPANEMBTX: Propane Prices: Mont Belvieu, Texas
+WPROPANEMBTX: Propane Prices: Mont Belvieu, Texas
+MPROPANEMBTX: Propane Prices: Mont Belvieu, Texas
+APROPANEMBTX: Propane Prices: Mont Belvieu, Texas
+IRLTLT01GBM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United Kingdom
+IRLTLT01GBA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United Kingdom
+IRLTLT01GBQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United Kingdom
+IORB: Interest Rate on Reserve Balances
+NASDAQ100: NASDAQ 100 Index
+IEABC: Balance on current account
+IEABCA: Balance on current account
+IEABCN: Balance on current account
+BA06RC1A027NBEA: Total wages and salaries, BLS
+CFNAI: Chicago Fed National Activity Index
+WFRBLB50107: Total Net Worth Held by the Bottom 50% (1st to 50th Wealth Percentiles)
+CARGSP: Real Gross Domestic Product: All Industry Total in California
+CARQGSP: Real Gross Domestic Product: All Industry Total in California
+LREM64TTUSM156S: Employment Rate: Aged 15-64: All Persons for the United States
+LREM64TTUSQ156S: Employment Rate: Aged 15-64: All Persons for the United States
+LREM64TTUSQ156N: Employment Rate: Aged 15-64: All Persons for the United States
+LREM64TTUSM156N: Employment Rate: Aged 15-64: All Persons for the United States
+LREM64TTUSA156S: Employment Rate: Aged 15-64: All Persons for the United States
+LREM64TTUSA156N: Employment Rate: Aged 15-64: All Persons for the United States
+CHXRSA: S&P/Case-Shiller IL-Chicago Home Price Index
+CHXRNSA: S&P/Case-Shiller IL-Chicago Home Price Index
+INDCPIALLMINMEI: Consumer Price Index: All Items for India
+INDCPIALLQINMEI: Consumer Price Index: All Items for India
+INDCPIALLAINMEI: Consumer Price Index: All Items for India
+B087RC1Q027SBEA: Federal government current transfer payments: Government social benefits: to persons
+B087RC1A027NBEA: Federal government current transfer payments: Government social benefits: to persons
+NA000300Q: Federal government current transfer payments: Government social benefits: to persons
+PCEDGC96: Real Personal Consumption Expenditures: Durable Goods
+PCDGCC96: Real Personal Consumption Expenditures: Durable Goods
+ND000346Q: Real Personal Consumption Expenditures: Durable Goods
+OB000346Q: Real Personal Consumption Expenditures: Durable Goods
+NB000346Q: Real Personal Consumption Expenditures: Durable Goods
+PCDGCCA: Real Personal Consumption Expenditures: Durable Goods
+DEUCPIALLMINMEI: Consumer Price Index of All Items in Germany
+DEUCPIALLQINMEI: Consumer Price Index of All Items in Germany
+QUSPAM770A: Total Credit to Private Non-Financial Sector, Adjusted for Breaks, for United States
+QUSPAMUSDA: Total Credit to Private Non-Financial Sector, Adjusted for Breaks, for United States
+CRDQUSAPABIS: Total Credit to Private Non-Financial Sector, Adjusted for Breaks, for United States
+MIXRNSA: S&P/Case-Shiller FL-Miami Home Price Index
+MIXRSA: S&P/Case-Shiller FL-Miami Home Price Index
+PCU325325: Producer Price Index by Industry: Chemical Manufacturing
+IMPGS: Imports of Goods and Services
+IEAMGSN: Imports of Goods and Services
+IEAMGS: Imports of Goods and Services
+IMPGSA: Imports of Goods and Services
+NA000342Q: Imports of Goods and Services
+IEAMGSA: Imports of Goods and Services
+NC000342Q: Imports of Goods and Services
+EUR3MTD156N: 3-Month London Interbank Offered Rate (LIBOR), based on Euro
+CPALCY01CAM661N: Consumer Price Index: Total, All Items for Canada
+CPALCY01CAQ661N: Consumer Price Index: Total, All Items for Canada
+CPALCY01CAA661N: Consumer Price Index: Total, All Items for Canada
+A792RC0A052NBEA: Personal income per capita
+A792RC0Q052SBEA: Personal income per capita
+USPHCI: Coincident Economic Activity Index for the United States
+EXVZUS: Venezuelan Bolivares to U.S. Dollar Spot Exchange Rate
+DEXVZUS: Venezuelan Bolivares to U.S. Dollar Spot Exchange Rate
+AEXVZUS: Venezuelan Bolivares to U.S. Dollar Spot Exchange Rate
+WORAL: Assets: Other: Repurchase Agreements: Wednesday Level
+STTMINWGOH: State Minimum Wage Rate for Ohio
+MZMV: Velocity of MZM Money Stock (DISCONTINUED)
+DAXRNSA: S&P/Case-Shiller TX-Dallas Home Price Index
+DAXRSA: S&P/Case-Shiller TX-Dallas Home Price Index
+CONSUMER: Consumer Loans, All Commercial Banks
+CLSACBW027SBOG: Consumer Loans, All Commercial Banks
+H8B1029NCBCMG: Consumer Loans, All Commercial Banks
+CONSUMERNSA: Consumer Loans, All Commercial Banks
+CLSACBW027NBOG: Consumer Loans, All Commercial Banks
+CLSACBQ158SBOG: Consumer Loans, All Commercial Banks
+ACLACB: Consumer Loans, All Commercial Banks
+H8B1029NCBCAG: Consumer Loans, All Commercial Banks
+AWHMAN: Average Weekly Hours of Production and Nonsupervisory Employees, Manufacturing
+CEU3000000007: Average Weekly Hours of Production and Nonsupervisory Employees, Manufacturing
+SPTNSAWE: Average Sales Price of New Manufactured Homes: Total Homes in West Census Region
+DRBLACBS: Delinquency Rate on Business Loans, All Commercial Banks
+DRBLACBN: Delinquency Rate on Business Loans, All Commercial Banks
+BAMLCC0A0CMTRIV: ICE BofA US Corporate Index Total Return Index Value
+TCD: Total Checkable Deposits (DISCONTINUED)
+TCDSL: Total Checkable Deposits (DISCONTINUED)
+TCDNS: Total Checkable Deposits (DISCONTINUED)
+WTCDNS: Total Checkable Deposits (DISCONTINUED)
+CP0000EZ19M086NEST: Harmonized Index of Consumer Prices: All Items for Euro area (19 countries)
+NYUR: Unemployment Rate in New York
+LAUST360000000000003A: Unemployment Rate in New York
+NYURN: Unemployment Rate in New York
+OUTMS: Manufacturing Sector: Output for All Employed Persons
+PRS30006042: Manufacturing Sector: Output for All Employed Persons
+PRS30006041: Manufacturing Sector: Output for All Employed Persons
+REALLN: Real Estate Loans, All Commercial Banks
+RELACBW027SBOG: Real Estate Loans, All Commercial Banks
+H8B1026NCBCMG: Real Estate Loans, All Commercial Banks
+RELACBW027NBOG: Real Estate Loans, All Commercial Banks
+REALLNNSA: Real Estate Loans, All Commercial Banks
+RELACBQ158SBOG: Real Estate Loans, All Commercial Banks
+H8B1026NCBCAG: Real Estate Loans, All Commercial Banks
+MRTSSM44112USN: Retail Sales: Used Car Dealers
+MRTSMPCSM44112USN: Retail Sales: Used Car Dealers
+ECIALLCIV: Employment Cost Index: Total compensation: All Civilian
+MKTGNIUSA646NWDB: Gross National Income for United States
+DNXRSA: S&P/Case-Shiller CO-Denver Home Price Index
+DNXRNSA: S&P/Case-Shiller CO-Denver Home Price Index
+LRUNTTTTCAM156S: Unemployment Rate: Aged 15 and Over: All Persons for Canada
+LRUNTTTTCAQ156S: Unemployment Rate: Aged 15 and Over: All Persons for Canada
+LRUNTTTTCAA156N: Unemployment Rate: Aged 15 and Over: All Persons for Canada
+LRUNTTTTCAM156N: Unemployment Rate: Aged 15 and Over: All Persons for Canada
+LRUNTTTTCAQ156N: Unemployment Rate: Aged 15 and Over: All Persons for Canada
+LRUNTTTTCAA156S: Unemployment Rate: Aged 15 and Over: All Persons for Canada
+LNS14000003: Unemployment Rate - White
+LNU04000003: Unemployment Rate - White
+LNS14000002: Unemployment Rate - Women
+LNU04000002: Unemployment Rate - Women
+DPCCRV1Q225SBEA: Personal Consumption Expenditures (PCE) Excluding Food and Energy (chain-type price index)
+DPCCRV1A225NBEA: Personal Consumption Expenditures (PCE) Excluding Food and Energy (chain-type price index)
+NYNGSP: Gross Domestic Product: All Industry Total in New York
+NYNQGSP: Gross Domestic Product: All Industry Total in New York
+DGS6MO: Market Yield on U.S. Treasury Securities at 6-Month Constant Maturity
+GS6M: Market Yield on U.S. Treasury Securities at 6-Month Constant Maturity
+WGS6MO: Market Yield on U.S. Treasury Securities at 6-Month Constant Maturity
+CALOSA7URN: Unemployment Rate in Los Angeles County, CA
+LAUCN060370000000003A: Unemployment Rate in Los Angeles County, CA
+TSIFRGHT: Freight Transportation Services Index
+TSIFRGHTC: Freight Transportation Services Index
+WPU06790918: Producer Price Index by Commodity: Chemicals and Allied Products: Carbon Black
+WRESBAL: Liabilities and Capital: Other Factors Draining Reserve Balances: Reserve Balances with Federal Reserve Banks: Week Average
+GFDGDPA188S: Gross Federal Debt as Percent of Gross Domestic Product
+PBARLUSDM: Global price of Barley
+PBARLUSDA: Global price of Barley
+PBARLUSDQ: Global price of Barley
+TLNRESCONS: Total Construction Spending: Nonresidential in the United States
+TLNRESCON: Total Construction Spending: Nonresidential in the United States
+MPCTNRXXS: Total Construction Spending: Nonresidential in the United States
+MRTSSM44X72USS: Retail Sales: Retail Trade and Food Services
+MRTSSM44X72USN: Retail Sales: Retail Trade and Food Services
+MRTSMPCSM44X72USS: Retail Sales: Retail Trade and Food Services
+MRTSMPCSM44X72USN: Retail Sales: Retail Trade and Food Services
+OEHRENWBSHNO: Households; Owners' Equity in Real Estate, Level
+BOGZ1FL155035065A: Households; Owners' Equity in Real Estate, Level
+MMMFFAQ027S: Money Market Funds; Total Financial Assets, Level
+MMMFFAA027N: Money Market Funds; Total Financial Assets, Level
+DTB6: 6-Month Treasury Bill Secondary Market Rate
+TB6MS: 6-Month Treasury Bill Secondary Market Rate
+WTB6MS: 6-Month Treasury Bill Secondary Market Rate
+USLAH: All Employees, Leisure and Hospitality
+CEU7000000001: All Employees, Leisure and Hospitality
+BOAAAHORUSQ156N: Homeownership Rates by Race and Ethnicity: Black Alone in the United States
+POPTOTUSA647NWDB: Population, Total for United States
+POPTOTUS52647NWDB: Population, Total for United States
+BOXRSA: S&P/Case-Shiller MA-Boston Home Price Index
+BOXRNSA: S&P/Case-Shiller MA-Boston Home Price Index
+WPU041: Producer Price Index by Commodity: Hides, Skins, Leather, and Related Products: Hides and Skins, Including Cattle
+WPS041: Producer Price Index by Commodity: Hides, Skins, Leather, and Related Products: Hides and Skins, Including Cattle
+WPU0419: Producer Price Index by Commodity: Hides, Skins, Leather, and Related Products: Hides and Skins, Including Cattle
+LNS14000009: Unemployment Rate - Hispanic or Latino
+LNU04000009: Unemployment Rate - Hispanic or Latino
+EVACANTUSQ176N: Housing Inventory Estimate: Vacant Housing Units in the United States
+TMBACBW027SBOG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+H8B1301NCBCMG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+TMBACBM027SBOG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+TMBACBW027NBOG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+TMBACBM027NBOG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+H8B1301NCBCQG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+H8B1301NCBCAG: Treasury and Agency Securities: Mortgage-Backed Securities (MBS), All Commercial Banks
+ATNHPIUS06037A: All-Transactions House Price Index for Los Angeles County, CA
+TRUCKD11: Truck Tonnage
+BOGZ1FL075035503Q: Interest Rates and Price Indexes; Commercial Real Estate Price Index, Level
+BOGZ1FL075035503A: Interest Rates and Price Indexes; Commercial Real Estate Price Index, Level
+WPU0652013A: Producer Price Index by Commodity: Chemicals and Allied Products: Synthetic Ammonia, Nitric Acid, Ammonium Compounds, and Urea
+WPU101704: Producer Price Index by Commodity: Metals and Metal Products: Hot Rolled Steel Bars, Plates, and Structural Shapes
+POILWTIUSDM: Global price of WTI Crude
+POILWTIUSDQ: Global price of WTI Crude
+POILWTIUSDA: Global price of WTI Crude
+JTSHIL: Hires: Total Nonfarm
+JTSHIR: Hires: Total Nonfarm
+JTUHIL: Hires: Total Nonfarm
+JTUHIR: Hires: Total Nonfarm
+CPIHOSNS: Consumer Price Index for All Urban Consumers: Housing in U.S. City Average
+CPIHOSSL: Consumer Price Index for All Urban Consumers: Housing in U.S. City Average
+CUUS0000SAH: Consumer Price Index for All Urban Consumers: Housing in U.S. City Average
+INTDSRJPM193N: Interest Rates, Discount Rate for Japan
+APU0000702111: Average Price: Bread, White, Pan (Cost per Pound/453.6 Grams) in U.S. City Average
+DPCREDIT: Discount Window Primary Credit Rate
+MPCREDIT: Discount Window Primary Credit Rate
+WPCREDIT: Discount Window Primary Credit Rate
+PCU511210511210504: Producer Price Index by Industry: Software Publishers: Software Maintenance, Technical Support, and Other Services Related to Software Publishing
+LMUNRRTTDEM156S: Registered Unemployment Rate for Germany
+LMUNRRTTDEQ156S: Registered Unemployment Rate for Germany
+LMUNRRTTDEA156N: Registered Unemployment Rate for Germany
+LMUNRRTTDEQ156N: Registered Unemployment Rate for Germany
+LMUNRRTTDEM156N: Registered Unemployment Rate for Germany
+LMUNRRTTDEA156S: Registered Unemployment Rate for Germany
+DTWEXEMEGS: Nominal Emerging Market Economies U.S. Dollar Index
+TWEXEMEGSMTH: Nominal Emerging Market Economies U.S. Dollar Index
+TWEXEMEGSANL: Nominal Emerging Market Economies U.S. Dollar Index
+WPU0613020T1: Producer Price Index by Commodity: Chemicals and Allied Products: Sulfuric Acid
+MYAGM2EZM196N: M2 for Euro Area
+MYAGM2EZQ196N: M2 for Euro Area
+WPU0652026A: Producer Price Index by Commodity: Chemicals and Allied Products: Phosphoric Acid, 52-54 Percent APA, Superphosphates and Other Phosphate Fertilizer Materials
+DEXUSAL: U.S. Dollars to Australian Dollar Spot Exchange Rate
+EXUSAL: U.S. Dollars to Australian Dollar Spot Exchange Rate
+AEXUSAL: U.S. Dollars to Australian Dollar Spot Exchange Rate
+IRLTLT01EZM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the Euro Area
+IRLTLT01EZA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the Euro Area
+IRLTLT01EZQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the Euro Area
+DPCERD3Q086SBEA: Personal consumption expenditures (implicit price deflator)
+DPCERD3A086NBEA: Personal consumption expenditures (implicit price deflator)
+APU0000FF1101: Average Price: Chicken Breast, Boneless (Cost per Pound/453.6 Grams) in U.S. City Average
+INTDSRCNM193N: Interest Rates, Discount Rate for China
+RKNANPUSA666NRUG: Capital Stock at Constant National Prices for United States
+UEMP27OV: Number Unemployed for 27 Weeks & over
+LNU03008636: Number Unemployed for 27 Weeks & over
+MYAGM2JPM189S: M2 for Japan
+MYAGM2JPM189N: M2 for Japan
+BOGZ1FL073161113Q: Interest Rates and Price Indexes; 10-Year Treasury Yield, Level
+BOGZ1FL073161113A: Interest Rates and Price Indexes; 10-Year Treasury Yield, Level
+AURUKM: Unemployment Rate in the United Kingdom
+UNRTUKA: Unemployment Rate in the United Kingdom
+POXRSA: S&P/Case-Shiller OR-Portland Home Price Index
+POXRNSA: S&P/Case-Shiller OR-Portland Home Price Index
+MEHOINUSCAA646N: Median Household Income in California
+GVZCLS: CBOE Gold ETF Volatility Index
+GBP1MTD156N: 1-Month London Interbank Offered Rate (LIBOR), based on British Pound
+IUDSOIA: Daily Sterling Overnight Index Average (SONIA) Rate
+STTMINWGMI: State Minimum Wage Rate for Michigan
+GCE: Government Consumption Expenditures and Gross Investment
+GCEA: Government Consumption Expenditures and Gross Investment
+NA000333Q: Government Consumption Expenditures and Gross Investment
+NC000333Q: Government Consumption Expenditures and Gross Investment
+TXNGSP: Gross Domestic Product: All Industry Total in Texas
+TXNQGSP: Gross Domestic Product: All Industry Total in Texas
+LFWA64TTJPM647S: Working Age Population: Aged 15-64: All Persons for Japan
+LFWA64TTJPM647N: Working Age Population: Aged 15-64: All Persons for Japan
+LFWA64TTJPQ647S: Working Age Population: Aged 15-64: All Persons for Japan
+LFWA64TTJPA647N: Working Age Population: Aged 15-64: All Persons for Japan
+LFWA64TTJPA647S: Working Age Population: Aged 15-64: All Persons for Japan
+LFWA64TTJPQ647N: Working Age Population: Aged 15-64: All Persons for Japan
+APU0000703112: Average Price: Ground Beef, 100% Beef (Cost per Pound/453.6 Grams) in U.S. City Average
+PCU32615032615041: Producer Price Index by Industry: Urethane and Other Foam Product Manufacturing: Polyurethane Foam Formed and Slab Stock for Pillows/Seating/etc.
+NFCICREDIT: Chicago Fed National Financial Conditions Credit Subindex
+GPSAVE: Gross Private Saving
+A126RC1A027NBEA: Gross Private Saving
+PCESC96: Real Personal Consumption Expenditures: Services
+PCESVC96: Real Personal Consumption Expenditures: Services
+ND000350Q: Real Personal Consumption Expenditures: Services
+DSERRL1Q225SBEA: Real Personal Consumption Expenditures: Services
+DSERRAM1M225NBEA: Real Personal Consumption Expenditures: Services
+DSERRO1Q156NBEA: Real Personal Consumption Expenditures: Services
+PCESVCA: Real Personal Consumption Expenditures: Services
+DSERRL1A225NBEA: Real Personal Consumption Expenditures: Services
+NB000350Q: Real Personal Consumption Expenditures: Services
+OB000350Q: Real Personal Consumption Expenditures: Services
+ATXRNSA: S&P/Case-Shiller GA-Atlanta Home Price Index
+ATXRSA: S&P/Case-Shiller GA-Atlanta Home Price Index
+SWPT: Assets: Central Bank Liquidity Swaps: Central Bank Liquidity Swaps: Wednesday Level
+TERMCBCCALLNS: Commercial Bank Interest Rate on Credit Card Plans, All Accounts
+MRTSSM4453USN: Retail Sales: Beer, Wine, and Liquor Stores
+MRTSSM4453USS: Retail Sales: Beer, Wine, and Liquor Stores
+MRTSMPCSM4453USN: Retail Sales: Beer, Wine, and Liquor Stores
+MRTSMPCSM4453USS: Retail Sales: Beer, Wine, and Liquor Stores
+LNS14027662: Unemployment Rate - Bachelor's Degree and Higher, 25 Yrs. & over
+LNU04027662: Unemployment Rate - Bachelor's Degree and Higher, 25 Yrs. & over
+ATNHPIUS38060Q: All-Transactions House Price Index for Phoenix-Mesa-Chandler, AZ (MSA)
+MABMM301EZM189S: M3 for the Euro Area
+MABMM301EZM189N: M3 for the Euro Area
+MABMM301EZQ657S: M3 for the Euro Area
+MABMM301EZA657S: M3 for the Euro Area
+MABMM301EZQ189S: M3 for the Euro Area
+MABMM301EZM657S: M3 for the Euro Area
+MABMM301EZA189N: M3 for the Euro Area
+MABMM301EZQ189N: M3 for the Euro Area
+MABMM301EZA189S: M3 for the Euro Area
+THREEFYTP10: Term Premium on a 10 Year Zero Coupon Bond
+MEDDAYONMARUS: Housing Inventory: Median Days on Market in the United States
+WPU10: Producer Price Index by Commodity: Metals and Metal Products
+CES3000000008: Average Hourly Earnings of Production and Nonsupervisory Employees, Manufacturing
+AHEMAN: Average Hourly Earnings of Production and Nonsupervisory Employees, Manufacturing
+A576RC1: Compensation of Employees, Received: Wage and Salary Disbursements
+DDOM01USA644NWDB: Number of Listed Companies for United States
+ATNHPIUS12420Q: All-Transactions House Price Index for Austin-Round Rock-Georgetown, TX (MSA)
+RSCCAS: Advance Retail Sales: Clothing and Clothing Accessory Stores
+RSCCASN: Advance Retail Sales: Clothing and Clothing Accessory Stores
+MARTSMPCSM448USS: Advance Retail Sales: Clothing and Clothing Accessory Stores
+MARTSMPCSM448USN: Advance Retail Sales: Clothing and Clothing Accessory Stores
+PCU4831114831115: Producer Price Index by Industry: Deep Sea Freight Transportation: Deep Sea Freight Transportation Services
+HQMCB5YR: 5-Year High Quality Market (HQM) Corporate Bond Spot Rate
+MKTGDPCAA646NWDB: Gross Domestic Product for Canada
+CANNGDPRPCH: Gross Domestic Product for Canada
+SLVPRUSD: Silver Fixing Price 12:00 noon (London time) in London Bullion Market, based in U.S. Dollars
+NYGDPPCAPKDCHN: Constant GDP per capita for China
+LOADFACTOR: Load Factor for U.S. Air Carrier Domestic and International, Scheduled Passenger Flights
+LOADFACTORD11: Load Factor for U.S. Air Carrier Domestic and International, Scheduled Passenger Flights
+WDXRSA: S&P/Case-Shiller DC-Washington Home Price Index
+WDXRNSA: S&P/Case-Shiller DC-Washington Home Price Index
+IR3TED01USM156N: 3-Month or 90-day Rates and Yields: Eurodollar Deposits for the United States
+IR3TED01USA156N: 3-Month or 90-day Rates and Yields: Eurodollar Deposits for the United States
+IR3TED01USQ156N: 3-Month or 90-day Rates and Yields: Eurodollar Deposits for the United States
+A794RX0Q048SBEA: Real personal consumption expenditures per capita
+ULCNFB: Nonfarm Business Sector: Unit Labor Costs for All Employed Persons
+PRS85006112: Nonfarm Business Sector: Unit Labor Costs for All Employed Persons
+PRS85006111: Nonfarm Business Sector: Unit Labor Costs for All Employed Persons
+PCU3364133641: Producer Price Index by Industry: Aerospace Product and Parts Manufacturing
+PCU33643364: Producer Price Index by Industry: Aerospace Product and Parts Manufacturing
+CPIENGSL: Consumer Price Index for All Urban Consumers: Energy in U.S. City Average
+CPIENGNS: Consumer Price Index for All Urban Consumers: Energy in U.S. City Average
+CUUS0000SA0E: Consumer Price Index for All Urban Consumers: Energy in U.S. City Average
+PNFI: Private Nonresidential Fixed Investment
+PNFIA: Private Nonresidential Fixed Investment
+NA000336Q: Private Nonresidential Fixed Investment
+NC000336Q: Private Nonresidential Fixed Investment
+JHGDPBRINDX: GDP-Based Recession Indicator Index
+NJSTHPI: All-Transactions House Price Index for New Jersey
+TTLHH: Total Households
+RPI: Real Personal Income
+CDCABSHNO: Households and Nonprofit Organizations; Checkable Deposits and Currency; Asset, Level
+HNOCDCA027N: Households and Nonprofit Organizations; Checkable Deposits and Currency; Asset, Level
+CMDEBT: Households and Nonprofit Organizations; Debt Securities and Loans; Liability, Level
+TCMILBSHNO: Households and Nonprofit Organizations; Debt Securities and Loans; Liability, Level
+BOGZ1LA154104005A: Households and Nonprofit Organizations; Debt Securities and Loans; Liability, Level
+BOGZ1FL154104005A: Households and Nonprofit Organizations; Debt Securities and Loans; Liability, Level
+DFII20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Inflation-Indexed
+WFII20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Inflation-Indexed
+FII20: Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Inflation-Indexed
+RMFSL: Retail Money Market Funds
+WRMFNS: Retail Money Market Funds
+RMFNS: Retail Money Market Funds
+PCU3312103312100: Producer Price Index by Industry: Iron and Steel Pipe and Tube Manufacturing from Purchased Steel: Iron and Steel Pipes and Tubes, from Purchased Iron and Steel
+WPU06130302: Producer Price Index by Commodity: Chemicals and Allied Products: Chlorine, Sodium Hydroxide, and Other Alkalies
+CLVMEURSCAB1GQEA19: Real Gross Domestic Product (Euro/ECU series) for Euro area (19 countries)
+CLVMEURNSAB1GQEA19: Real Gross Domestic Product (Euro/ECU series) for Euro area (19 countries)
+WFRBLT01026: Total Net Worth Held by the Top 1% (99th to 100th Wealth Percentiles)
+W875RX1: Real personal income excluding current transfer receipts
+PIECTR: Real personal income excluding current transfer receipts
+W875RX1A020NBEA: Real personal income excluding current transfer receipts
+LNS11324230: Labor Force Participation Rate - 55 Yrs. & over
+LNU01324230: Labor Force Participation Rate - 55 Yrs. & over
+TOTBUSSMSA: Total Business Sales
+TOTBUSSMNSA: Total Business Sales
+TOTBUSMPCSMSA: Total Business Sales
+TOTBUSMPCSMNSA: Total Business Sales
+EXPGSC1: Real Exports of Goods and Services
+EXPGSCA: Real Exports of Goods and Services
+A020RL1Q158SBEA: Real Exports of Goods and Services
+A020RL1A158NBEA: Real Exports of Goods and Services
+A020RO1Q156NBEA: Real Exports of Goods and Services
+ND000352Q: Real Exports of Goods and Services
+NB000352Q: Real Exports of Goods and Services
+OB000352Q: Real Exports of Goods and Services
+DEXSZUS: Swiss Francs to U.S. Dollar Spot Exchange Rate
+EXSZUS: Swiss Francs to U.S. Dollar Spot Exchange Rate
+AEXSZUS: Swiss Francs to U.S. Dollar Spot Exchange Rate
+MAPAINUSA646N: Mean Personal Income in the United States
+TLRESCONS: Total Construction Spending: Residential in the United States
+TLRESCON: Total Construction Spending: Residential in the United States
+MPCT00XXS: Total Construction Spending: Residential in the United States
+DTP10J28: 10-Year 0.5% Treasury Inflation-Indexed Note, Due 1/15/2028
+CDSP: Consumer Debt Service Payments as a Percent of Disposable Personal Income
+IR: Import Price Index (End Use): All Commodities
+FPCPITOTLZGJPN: Inflation, consumer prices for Japan
+UKNGDP: Gross Domestic Product for United Kingdom
+MKTGDPGBA646NWDB: Gross Domestic Product for United Kingdom
+CPMNACNSAB1GQUK: Gross Domestic Product for United Kingdom
+CPMNACSCAB1GQUK: Gross Domestic Product for United Kingdom
+BOGZ1FL192090005Q: Households; Net Worth, Level
+BOGZ1FL192090005A: Households; Net Worth, Level
+COMPUTSA: New Privately-Owned Housing Units Completed: Total Units
+COMPUTNSA: New Privately-Owned Housing Units Completed: Total Units
+A006RE1Q156NBEA: Shares of gross domestic product: Gross private domestic investment
+A006RE1A156NBEA: Shares of gross domestic product: Gross private domestic investment
+CES4348400001: All Employees, Truck Transportation
+CEU4348400001: All Employees, Truck Transportation
+INDIRLTLT01STM: Interest Rates: Long-term government bond yields: 10-year: Main (including benchmark) for India
+INDIRLTLT01STQ: Interest Rates: Long-term government bond yields: 10-year: Main (including benchmark) for India
+SPDYNCBRTINUSA: Crude Birth Rate for the United States
+MNFCTRIRSA: Manufacturers: Inventories to Sales Ratio
+MNFCTRIRNSA: Manufacturers: Inventories to Sales Ratio
+ICERATES1100EUR10Y: ICE Swap Rates, 11:00 A.M. (London Time), Based on Euros, 10 Year Tenor
+TOTDTEUSQ163N: Total Debt to Equity for United States
+ICERATES1200EUR30Y: ICE Swap Rates, 12:00 P.M. (London Time), Based on Euros, 30 Year Tenor
+LVXRNSA: S&P/Case-Shiller NV-Las Vegas Home Price Index
+LVXRSA: S&P/Case-Shiller NV-Las Vegas Home Price Index
+WPU3012: Producer Price Index by Commodity: Transportation Services: Truck Transportation of Freight
+WPS3012: Producer Price Index by Commodity: Transportation Services: Truck Transportation of Freight
+M3: M3 Money Stock (DISCONTINUED)
+M3SL: M3 Money Stock (DISCONTINUED)
+M3NS: M3 Money Stock (DISCONTINUED)
+WM3NS: M3 Money Stock (DISCONTINUED)
+FLNGSP: Gross Domestic Product: All Industry Total in Florida
+FLNQGSP: Gross Domestic Product: All Industry Total in Florida
+PSOYBUSDQ: Global price of Soybeans
+PSOYBUSDM: Global price of Soybeans
+PSOYBUSDA: Global price of Soybeans
+AMTMNO: Manufacturers' New Orders: Total Manufacturing
+UMTMNO: Manufacturers' New Orders: Total Manufacturing
+PCU3274203274201: Producer Price Index by Industry: Gypsum Product Manufacturing: Gypsum Building Materials
+CPATAX: Corporate Profits After Tax with Inventory Valuation Adjustment (IVA) and Capital Consumption Adjustment (CCAdj)
+QBPBSTAS: Balance Sheet: Total Assets
+A229RC0: Disposable Personal Income: Per capita: Current dollars
+TRMMEANCPIM158SFRBCLE: 16% Trimmed-Mean Consumer Price Index
+TRMMEANCPIM159SFRBCLE: 16% Trimmed-Mean Consumer Price Index
+TRMMEANCPIM094SFRBCLE: 16% Trimmed-Mean Consumer Price Index
+TRMMEANCPIM157SFRBCLE: 16% Trimmed-Mean Consumer Price Index
+USGOVT: All Employees, Government
+CEU9000000001: All Employees, Government
+WILL5000PR: Wilshire 5000 Price Index
+IPG211111CS: Industrial Production: Mining, Quarrying, and Oil and Gas Extraction: Crude Oil (NAICS = 211111pt.)
+IPG211111CN: Industrial Production: Mining, Quarrying, and Oil and Gas Extraction: Crude Oil (NAICS = 211111pt.)
+IPG211111CSQ: Industrial Production: Mining, Quarrying, and Oil and Gas Extraction: Crude Oil (NAICS = 211111pt.)
+IPG211111CNQ: Industrial Production: Mining, Quarrying, and Oil and Gas Extraction: Crude Oil (NAICS = 211111pt.)
+LRUN64TTJPM156S: Unemployment Rate: Aged 15-64: All Persons for Japan
+LRUN64TTJPQ156S: Unemployment Rate: Aged 15-64: All Persons for Japan
+LRUN64TTJPA156N: Unemployment Rate: Aged 15-64: All Persons for Japan
+LRUN64TTJPA156S: Unemployment Rate: Aged 15-64: All Persons for Japan
+LRUN64TTJPQ156N: Unemployment Rate: Aged 15-64: All Persons for Japan
+LRUN64TTJPM156N: Unemployment Rate: Aged 15-64: All Persons for Japan
+CES9091000001: All Employees, Federal
+CEU9091000001: All Employees, Federal
+IR14200: Import Price Index (End Use): Bauxite and Aluminum
+CLVMNACSCAB1GQES: Real Gross Domestic Product for Spain
+CLVMNACNSAB1GQES: Real Gross Domestic Product for Spain
+CPIAPPSL: Consumer Price Index for All Urban Consumers: Apparel in U.S. City Average
+CPIAPPNS: Consumer Price Index for All Urban Consumers: Apparel in U.S. City Average
+CUUS0000SAA: Consumer Price Index for All Urban Consumers: Apparel in U.S. City Average
+BAMLC1A0C13YEY: ICE BofA 1-3 Year US Corporate Index Effective Yield
+CPIUFDNS: Consumer Price Index for All Urban Consumers: Food in U.S. City Average
+CPIUFDSL: Consumer Price Index for All Urban Consumers: Food in U.S. City Average
+CUUS0000SAF1: Consumer Price Index for All Urban Consumers: Food in U.S. City Average
+CES0500000011: Average Weekly Earnings of All Employees, Total Private
+CEU0500000011: Average Weekly Earnings of All Employees, Total Private
+WPUSI019011: Producer Price Index by Commodity: Special Indexes: Copper and Copper Products
+VXFXICLS: CBOE China ETF Volatility Index
+SPCS10RSA: S&P/Case-Shiller 10-City Composite Home Price Index
+SPCS10RNSA: S&P/Case-Shiller 10-City Composite Home Price Index
+BOGZ1FA895050005Q: All Sectors; Total Capital Expenditures, Transactions
+BOGZ1FA895050005A: All Sectors; Total Capital Expenditures, Transactions
+BOGZ1FU895050005A: All Sectors; Total Capital Expenditures, Transactions
+BOGZ1FU895050005Q: All Sectors; Total Capital Expenditures, Transactions
+USALOLITONOSTSAM: Leading Indicators OECD: Leading indicators: CLI: Normalised for the United States
+MDLM: Other Liquid Deposits: Total
+MDLNWM: Other Liquid Deposits: Total
+MDLNM: Other Liquid Deposits: Total
+CPHPTT01EZM659N: Consumer Price Index: Harmonized Prices: Total All Items for the Euro Area
+CPHPTT01EZM661N: Consumer Price Index: Harmonized Prices: Total All Items for the Euro Area
+CPHPTT01EZM657N: Consumer Price Index: Harmonized Prices: Total All Items for the Euro Area
+CPHPTT01EZA659N: Consumer Price Index: Harmonized Prices: Total All Items for the Euro Area
+CPHPTT01EZA661N: Consumer Price Index: Harmonized Prices: Total All Items for the Euro Area
+CPHPTT01EZA657N: Consumer Price Index: Harmonized Prices: Total All Items for the Euro Area
+OHUR: Unemployment Rate in Ohio
+OHURN: Unemployment Rate in Ohio
+LAUST390000000000003A: Unemployment Rate in Ohio
+IRLTLT01FRM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for France
+IRLTLT01FRA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for France
+IRLTLT01FRQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for France
+PNRGINDEXM: Global price of Energy index
+PNRGINDEXQ: Global price of Energy index
+PNRGINDEXA: Global price of Energy index
+CSCICP03USM665S: Consumer Opinion Surveys: Confidence Indicators: Composite Indicators: OECD Indicator for the United States
+PRFI: Private Residential Fixed Investment
+PRFIA: Private Residential Fixed Investment
+IRLTLT01CAM156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Canada
+IRLTLT01CAQ156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Canada
+IRLTLT01CAA156N: Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for Canada
+TPXRSA: S&P/Case-Shiller FL-Tampa Home Price Index
+TPXRNSA: S&P/Case-Shiller FL-Tampa Home Price Index
+NAEXKP01INQ652S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for India
+NAEXKP01INQ657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for India
+NAEXKP01INQ661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for India
+NAEXKP01INA657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for India
+NAEXKP01INA652S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for India
+NAEXKP01INA661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for India
+PMETAINDEXM: Global price of Metal index
+PMETAINDEXQ: Global price of Metal index
+PMETAINDEXA: Global price of Metal index
+NCBDBIQ027S: Nonfinancial Corporate Business; Debt Securities; Liability, Level
+NCBDBIA027N: Nonfinancial Corporate Business; Debt Securities; Liability, Level
+DAUTOSA: Motor Vehicle Retail Sales: Domestic Autos
+DAUTOSAAR: Motor Vehicle Retail Sales: Domestic Autos
+DAUTONSA: Motor Vehicle Retail Sales: Domestic Autos
+PPAAUS00000A156NCEN: Estimated Percent of People of All Ages in Poverty for United States
+BOGZ1FL072052006Q: Interest Rates and Price Indexes; Effective Federal Funds Rate (Percent), Level
+BOGZ1FL072052006A: Interest Rates and Price Indexes; Effective Federal Funds Rate (Percent), Level
+APU0000704111: Average Price: Bacon, Sliced (Cost per Pound/453.6 Grams) in U.S. City Average
+RPONTTLD: Overnight Repurchase Agreements: Total Securities Purchased by the Federal Reserve in the Temporary Open Market Operations
+INTDSRINM193N: Interest Rates, Discount Rate for India
+ATNHPIUS26420Q: All-Transactions House Price Index for Houston-The Woodlands-Sugar Land, TX (MSA)
+STTMINWGPA: State Minimum Wage Rate for Pennsylvania
+GEPUCURRENT: Global Economic Policy Uncertainty Index: Current Price Adjusted GDP
+DRCRELEXFACBS: Delinquency Rate on Commercial Real Estate Loans (Excluding Farmland), Booked in Domestic Offices, All Commercial Banks
+DRCRELEXFACBN: Delinquency Rate on Commercial Real Estate Loans (Excluding Farmland), Booked in Domestic Offices, All Commercial Banks
+PRICENPQUSDM: Global price of Rice, Thailand
+PRICENPQUSDA: Global price of Rice, Thailand
+PRICENPQUSDQ: Global price of Rice, Thailand
+B4701C0A222NBEA: Hours worked by full-time and part-time employees
+RESBALNS: Total Reserve Balances Maintained with Federal Reserve Banks (DISCONTINUED)
+RESBALNSW: Total Reserve Balances Maintained with Federal Reserve Banks (DISCONTINUED)
+WPU09120325: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Corrugated Recyclable Paper
+WPS091203: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Corrugated Recyclable Paper
+WPU091203: Producer Price Index by Commodity: Pulp, Paper, and Allied Products: Corrugated Recyclable Paper
+DDEM01USA156NWDB: Stock Market Turnover Ratio (Value Traded/Capitalization) for United States
+RSFSDP: Advance Retail Sales: Food Services and Drinking Places
+RSFSDPN: Advance Retail Sales: Food Services and Drinking Places
+MARTSMPCSM722USS: Advance Retail Sales: Food Services and Drinking Places
+MARTSMPCSM722USN: Advance Retail Sales: Food Services and Drinking Places
+HQMCB10YRP: 10-Year High Quality Market (HQM) Corporate Bond Par Yield
+PCOTTINDUSDM: Global price of Cotton
+PCOTTINDUSDA: Global price of Cotton
+PCOTTINDUSDQ: Global price of Cotton
+BAMLC4A0C710YEY: ICE BofA 7-10 Year US Corporate Index Effective Yield
+TXSTHPI: All-Transactions House Price Index for Texas
+CASACBW027SBOG: Cash Assets, All Commercial Banks
+H8B1048NCBCMG: Cash Assets, All Commercial Banks
+CASACBM027SBOG: Cash Assets, All Commercial Banks
+CASACBQ158SBOG: Cash Assets, All Commercial Banks
+CASACBW027NBOG: Cash Assets, All Commercial Banks
+CASACBM027NBOG: Cash Assets, All Commercial Banks
+H8B1048NCBCAG: Cash Assets, All Commercial Banks
+CLVMNACSCAB1GQEL: Real Gross Domestic Product for Greece
+CLVMNACNSAB1GQEL: Real Gross Domestic Product for Greece
+USNUM: Commercial Banks in the U.S. (DISCONTINUED)
+KCFSI: Kansas City Financial Stress Index
+DGDSRC1: Personal Consumption Expenditures: Goods
+DGDSRC1Q027SBEA: Personal Consumption Expenditures: Goods
+NA000347Q: Personal Consumption Expenditures: Goods
+DGDSRC1A027NBEA: Personal Consumption Expenditures: Goods
+NC000347Q: Personal Consumption Expenditures: Goods
+BAMLEMRACRPIASIAOAS: ICE BofA Asia Emerging Markets Corporate Plus Index Option-Adjusted Spread
+WLRRAL: Liabilities and Capital: Liabilities: Reverse Repurchase Agreements: Wednesday Level
+AWHAEMAN: Average Weekly Hours of All Employees, Manufacturing
+CEU3000000002: Average Weekly Hours of All Employees, Manufacturing
+USGSEC: Treasury and Agency Securities, All Commercial Banks
+TASACBW027SBOG: Treasury and Agency Securities, All Commercial Banks
+H8B1003NCBCMG: Treasury and Agency Securities, All Commercial Banks
+TASACBW027NBOG: Treasury and Agency Securities, All Commercial Banks
+TASACBQ158SBOG: Treasury and Agency Securities, All Commercial Banks
+USGSECNSA: Treasury and Agency Securities, All Commercial Banks
+H8B1003NCBCAG: Treasury and Agency Securities, All Commercial Banks
+LNS11300006: Labor Force Participation Rate - Black or African American
+LNU01300006: Labor Force Participation Rate - Black or African American
+CUSR0000SETB01: Consumer Price Index for All Urban Consumers: Gasoline (All Types) in U.S. City Average
+CUUR0000SETB01: Consumer Price Index for All Urban Consumers: Gasoline (All Types) in U.S. City Average
+CUUS0000SETB01: Consumer Price Index for All Urban Consumers: Gasoline (All Types) in U.S. City Average
+CUSR0000SAF11: Consumer Price Index for All Urban Consumers: Food at Home in U.S. City Average
+CUUR0000SAF11: Consumer Price Index for All Urban Consumers: Food at Home in U.S. City Average
+CUUS0000SAF11: Consumer Price Index for All Urban Consumers: Food at Home in U.S. City Average
+IPG2211A2N: Industrial Production: Utilities: Electric and Gas Utilities (NAICS = 2211,2)
+IPUTIL: Industrial Production: Utilities: Electric and Gas Utilities (NAICS = 2211,2)
+IPG2211A2SQ: Industrial Production: Utilities: Electric and Gas Utilities (NAICS = 2211,2)
+IPG2211A2NQ: Industrial Production: Utilities: Electric and Gas Utilities (NAICS = 2211,2)
+CES1021210001: All Employees, Coal Mining
+CEU1021210001: All Employees, Coal Mining
+UTSTHPI: All-Transactions House Price Index for Utah
+MEFAINUSA672N: Real Median Family Income in the United States
+A072RC1Q156SBEA: Personal saving as a percentage of disposable personal income
+A072RC1A156NBEA: Personal saving as a percentage of disposable personal income
+RAILFRTCARLOADSD11: Rail Freight Carloads
+RAILFRTCARLOADS: Rail Freight Carloads
+RIFLPBCIANM60NM: Finance Rate on Consumer Installment Loans at Commercial Banks, New Autos 60 Month Loan
+DEXMAUS: Malaysian Ringgit to U.S. Dollar Spot Exchange Rate
+EXMAUS: Malaysian Ringgit to U.S. Dollar Spot Exchange Rate
+AEXMAUS: Malaysian Ringgit to U.S. Dollar Spot Exchange Rate
+SOFRINDEX: SOFR Index
+BAMLEMHBHYCRPIEY: ICE BofA High Yield Emerging Markets Corporate Plus Index Effective Yield
+NAEXKP01BRQ652S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Brazil
+NAEXKP01BRQ657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Brazil
+NAEXKP01BRA657S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Brazil
+NAEXKP01BRQ661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Brazil
+NAEXKP01BRA652S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Brazil
+NAEXKP01BRA661S: Gross Domestic Product by Expenditure in Constant Prices: Total Gross Domestic Product for Brazil
+IMPCH: U.S. Imports of Goods by Customs Basis from China
+
+
+
