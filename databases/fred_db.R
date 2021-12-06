@@ -1,5 +1,5 @@
 library(fredr)
-library(RPostgreSQL)
+library(RPostgres)
 
 source(".postgres_password")
 source(".api_key")
@@ -9,7 +9,7 @@ series = read.delim("fed_cat_ids.txt") # downloaded from https://fred.stlouisfed
 ids = apply(series, 2, strsplit, split = ":")
 first_elt = sapply(ids[[1]], "[[", 1) # first element is unique id for table
 
-con <- dbConnect(PostgreSQL(), 
+con <- dbConnect(RPostgres::Postgres(), 
                  user= "david", 
                  password = psql_pwd, 
                  dbname = "fred_data")
@@ -28,6 +28,7 @@ for(t in 352:length(first_elt)){
 
 # Write table with long-form descriptions 
 table_desc = cbind.data.frame(tolower(first_elt), series)
+colnames(table_desc) = c("series", "description")
 dbWriteTable(con, "table_descriptions", table_desc)
 
 
