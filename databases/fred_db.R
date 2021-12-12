@@ -15,7 +15,7 @@ con <- dbConnect(RPostgres::Postgres(),
                  dbname = "fred_data")
 
 # Write all available tables
-for(t in 352:length(first_elt)){
+for(t in 1:length(first_elt)){
   tryCatch({
     table = fredr(series_id = first_elt[[t]])
     table = as.data.frame(table)
