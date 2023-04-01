@@ -1,0 +1,11 @@
+### Description of Adaptive Randomization Algorithm
+
+This code is an implementation of an adaptive randomization algorithm in R. The algorithm assigns patients to either a control or 
+experimental group based on the smaller marginal sum of the variables of interest (blood pressure and sex) in the previously assigned patients. 
+The code also adds random columns for generalization and ensures reproducibility by setting the seed. The output of the code is a table that 
+this code is an implementation of an adaptive randomization algorithm in R. The algorithm assigns patients to either a control or experimental 
+group based on the smaller marginal sum of the variables of interest (blood pressure and sex) in the previously assigned patients. The code also
+adds random columns for generalization and ensures reproducibility by setting the seed. The output of the code is a table that displays the number 
+of patients assigned to each group and the final marginal table that shows the number of patients with low, medium, and high blood pressure and the 
+number of male and female patients in each group. The code ends with a task for counting the levels of each factor, which is left for the next day. 
+Finally, the assigned groups are written to a CSV file named "adapt_assignments.csv"
