@@ -4,11 +4,11 @@ data = data[, c(1:4)] # only the first four columns need consideration
 data = apply(data, 2, trimws) # clean white spaces from data entry
 data = as.data.frame(data)
 
-# add some random columns for generalization
-classes = c("low", "med", "high")
-data$triglycerides = sample(classes, 30, replace = T)
-data$heartrate = data$triglycerides = sample(classes, 30, replace = T)
-data = data[ , c(1, 2, 3, 5, 6, 4)] # reorder columns
+# add some random columns for generalization, if desired
+# classes = c("low", "med", "high")
+# data$triglycerides = sample(classes, 30, replace = T)
+# data$heart_rate = data$triglycerides = sample(classes, 30, replace = T)
+# data = data[ , c(1, 2, 3, 5, 6, 4)] # reorder columns
 
 f = min(which(data$treatment == "")) - 1 # last randomly assigned row
 
