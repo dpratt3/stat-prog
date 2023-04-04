@@ -98,10 +98,5 @@ rownames(marg_table) = c("control", "exp")
 colnames(marg_table) = c("low_bp", "med_bp", "high_bp", "count_male", "count_fem", "marg_total")
 print(marg_table)
 
-write.csv(data, "adapt_assignments.csv")
+write.csv(data, row.names = F, "adapt_assignments.csv")
 
-# Count the levels of each factor. This will be tomorrow's task.
-levels = list()
-for(c in comorb_cols){
-  # enter code here counting the factors of each level
-}
