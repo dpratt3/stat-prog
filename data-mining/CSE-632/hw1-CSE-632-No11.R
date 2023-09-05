@@ -44,8 +44,8 @@ for(i in 1:length(points)){
     distList2[[i]] = (sum(distanceMatrix[i, ] > d)) >= p
 }
 
-distList1 = do.call(rbind, distList2)
-distList1 = as.data.frame(distList2)
+distList2 = do.call(rbind, distList2)
+distList2 = as.data.frame(distList2)
 rownames(distList2) = c("s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10")
 colnames(distList2) = "p"
 print(distList2)
@@ -53,4 +53,31 @@ print(distList2)
 # (b) Describe the procedure and interpret the results of outlier detection based on mean
 # values and variances for each dimension separately.
 
+pointMatrix = do.call(rbind, points)
+pointMeans = apply(pointMatrix, 2, mean)
+print(pointMeans)
 
+pointSDs = apply(pointMatrix, 2, sd)
+print(pointSDs)
+
+upperBounds = pointMeans + 2 * pointSDs
+lowerBounds = pointMeans - 2 * pointSDs
+
+print(upperBounds)
+print(lowerBounds)
+
+isOutlier = function(point, upperBounds, lowerBounds){
+    for(i in 1:length(point)){
+        if(point[i] > upperBounds[i] || point[i] < lowerBounds[i]){
+            return(TRUE)
+        }
+    }
+    return(FALSE)
+}
+
+meanVarOutliers = lapply(points, isOutlier, upperBounds, lowerBounds)
+meanVarOutliers = do.call(rbind, meanVarOutliers)
+meanVarOutliers = as.data.frame(meanVarOutliers)
+colnames(meanVarOutliers) = "p"
+rownames(meanVarOutliers) = c("s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10")
+print(meanVarOutliers)
