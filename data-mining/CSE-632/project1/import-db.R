@@ -22,5 +22,22 @@ res <- dbGetQuery(con, "SELECT * FROM electricvehicle")
 dim(res)
 head(res)
 
-plot(res$u_q, res$u_d)
+# plot(res$u_q, res$u_d)
+
+# Problem 2: 
+# 1. What feature has missing data? How much data is missing? How do you deal with missing data?
+
+missingData <- function(column){
+    return(sum(is.na(column)))
+}
+
+# count missting data:
+apply(res, 2, missingData)
+
+
+# Find percentage of missing data
+print(100 * sum(is.na(res$i_d)) / length(res$i_d))
+
+# 2. What feature is particularly noisy? What level of ambiguity is the data? How do you deal with such noise?
+
 
