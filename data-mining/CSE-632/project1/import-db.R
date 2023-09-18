@@ -40,4 +40,25 @@ print(100 * sum(is.na(res$i_d)) / length(res$i_d))
 
 # 2. What feature is particularly noisy? What level of ambiguity is the data? How do you deal with such noise?
 
+# to identify noise, look at the variance: 
+print(apply(res, 2, var, na.rm = TRUE))
 
+# Analysis of the noisiest feature
+ apply(res, 2, hist, breaks = 30, col = "firebrick")
+
+normalize <- function(data){
+    return( (data - mean(data, na.rm = TRUE)) / sd(data, na.rm = TRUE) )
+}
+
+min_max <- function(data){
+    return( ( data - min(data, na.rm = TRUE) )/( max(data, na.rm = TRUE) - min(data, na.rm = TRUE) ) )
+}
+
+normalized_res = apply(res, 2, normalize)
+min_max_res = apply(res, 2, min_max)
+
+apply(min_max_res, 2, hist, breaks = 30, col = "firebrick")
+print(head(res))
+
+# Problem 4: Preprocessing the data
+ cor(res, use="complete.obs")
