@@ -109,6 +109,7 @@ dev.off()
 # Missingness Analysis
 library(naniar)
 missing_summary <- miss_var_summary(res)
+print(missing_summary)
 
 ### Hypothesis One
 # Missingness is MCAR from stator_winding but systematic from i_d
@@ -147,6 +148,24 @@ for(i in unique_profiles_ids){
     subsetted_data = subset(res, profile_id == i)
     missing_fraction[i] = sum(is.na(subsetted_data$i_d)) / length(subsetted_data$i_d)
 }
+
+# Missingness is independent of included variables for i_d?
+t.test(subset(res, is.na(i_d))$u_q, subset(res, !is.na(i_d))$u_q)$p.value
+t.test(subset(res, is.na(i_d))$coolant, subset(res, !is.na(i_d))$coolant)$p.value
+t.test(subset(res, is.na(i_d))$u_d, subset(res, !is.na(i_d))$u_d)$p.value
+t.test(subset(res, is.na(i_d))$motor_speed, subset(res, !is.na(i_d))$motor_speed)$p.value
+t.test(subset(res, is.na(i_d))$i_q, subset(res, !is.na(i_d))$i_q)$p.value
+t.test(subset(res, is.na(i_d))$ambient, subset(res, !is.na(i_d))$ambient)$p.value
+t.test(subset(res, is.na(i_d))$torque, subset(res, !is.na(i_d))$torque)$p.value
+
+# Missingness is independent of included variables for stator_winding?
+t.test(subset(res, is.na(stator_winding))$u_q, subset(res, !is.na(stator_winding))$u_q)$p.value
+t.test(subset(res, is.na(stator_winding))$coolant, subset(res, !is.na(stator_winding))$coolant)$p.value
+t.test(subset(res, is.na(stator_winding))$u_d, subset(res, !is.na(stator_winding))$u_d)$p.value
+t.test(subset(res, is.na(stator_winding))$motor_speed, subset(res, !is.na(stator_winding))$motor_speed)$p.value
+t.test(subset(res, is.na(stator_winding))$i_q, subset(res, !is.na(stator_winding))$i_q)$p.value
+t.test(subset(res, is.na(stator_winding))$ambient, subset(res, !is.na(stator_winding))$ambient)$p.value
+t.test(subset(res, is.na(stator_winding))$torque, subset(res, !is.na(stator_winding))$torque)$p.value
 
 # There is some missingness on stator_winding as well
 na_summer = function(data) sum(is.na(data))
