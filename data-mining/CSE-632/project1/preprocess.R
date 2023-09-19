@@ -57,7 +57,7 @@ min_max <- function(data){
 normalized_res = apply(res, 2, normalize)
 min_max_res = apply(res, 2, min_max)
 
-apply(min_max_res, 2, hist, breaks = 30, col = "firebrick")
+# apply(min_max_res, 2, hist, breaks = 30, col = "firebrick")
 print(head(res))
 
 # Problem 2 create visualizations
@@ -75,7 +75,6 @@ dev.off()
 # Look at histograms for each variable
 library(ggplot2)
 library(gridExtra)
-
 
 png("histograms.png", width = 800, height = 800) 
 
@@ -102,11 +101,40 @@ hist(res$stator_yoke, col = hist_color, breaks = num_bins, main = "stator_yoke H
 hist(res$ambient, col = hist_color, breaks = num_bins, main = "ambient Histogram", xlab = "ambient")
 hist(res$torque, col = hist_color, breaks = num_bins, main = "torque Histogram", xlab = "torque")
 
-
 # Reset the layout to its default
 par(mfrow = c(1, 1))
 
 dev.off()
+
+### Hypothesis One
+# Missingness is MCAR from stator_winding but systematic from i_d
+library(naniar)
+
+# Convert the variable to a data frame
+stator_winding_df <- data.frame(stator_winding = res$stator_winding)
+
+# Perform Little's MCAR test
+mcar_test_result <- as.numeric(mcar_test(stator_winding_df))
+
+# Interpret the result
+if (mcar_test_result[[1]] < 0.05) {
+  cat("Stator winding missingness does not not follow MCAR (p-value < 0.05)")
+} else {
+  cat("Stator winding missingness (p-value >= 0.05)")
+}
+
+# Convert the variable to a data frame
+i_q_df <- data.frame(i_q = res$i_q)
+
+# Perform Little's MCAR test
+mcar_test_result <- as.numeric(mcar_test(i_q_df))
+
+# Interpret the result
+if (mcar_test_result[[1]] < 0.05) {
+  cat("Missingness for 'i_q' does not follow MCAR (p-value < 0.05)")
+} else {
+  cat("Missingness for 'i_q' follows MCAR (p-value >= 0.05)")
+}
 
 # quantify missingness in i_d variable: pretty stable!
 unique_profiles_ids = unique(res$profile_id)
@@ -123,46 +151,52 @@ apply(res, 2, na_summer)
 print(c("the following data is missing by profile_id", missing_fraction))
 # Preprocess the data with information from the histograms
 
-# preprocess u_q
-min(res$u_q)
-max(res$u_q)
+# preprocess u_q (min-max scaling)
+scaled_u_q = min_max(res$u_q)
 
 # preprocess coolant
 summary(res$coolant)
 scaled_coolant = (res$coolant - min(res$coolant)) / (max(res$coolant) - min(res$coolant))
 
 # preprocess stator_winding (note: there is about 5% missingness here from one )
-summary(res$stator_winding)
-scaled_stator_winding = (res$stator_winding - min(res$stator_winding)) / (max(res$stator_winding) - min(res$stator_winding))
-missing_fraction = vector()
-for(i in unique_profiles_ids){
-    subsetted_data = subset(res, profile_id == i)
-    missing_fraction[i] = sum(is.na(subsetted_data$stator_winding)) / length(subsetted_data$stator_winding)
-}
+# summary(res$stator_winding)
+# scaled_stator_winding = (res$stator_winding - min(res$stator_winding)) / (max(res$stator_winding) - min(res$stator_winding))
+# missing_fraction = vector()
+# for(i in unique_profiles_ids){
+#     subsetted_data = subset(res, profile_id == i)
+#     missing_fraction[i] = sum(is.na(subsetted_data$stator_winding)) / length(subsetted_data$stator_winding)
+# }
 
 # preprocess u_d
 summary(res$u_d) # symmetric
 u_d_scaled = 2 * (res$u_d - min(res$u_d)) / (max(res$u_d) - min(res$u_d)) - 1
 
-# preprocess stator_tooth
-summary(res$stator_tooth) # symmetric
-stator_tooth_scaled = 2 * (res$stator_tooth - min(res$stator_tooth)) / (max(res$stator_tooth) - min(res$stator_tooth)) - 1
-
-# preprocess motor_speed
-
 # preprocess i_d on [0, -1]
-
 i_d_scaled <- -(res$i_d - min(res$i_d, na.rm = TRUE)) / ( max(res$i_d, na.rm = TRUE) - min(res$i_d, na.rm=TRUE) )
 
 # preprocess i_q
 summary(res$i_q) # symmetric
 i_q_scaled = 2 * (res$i_q - min(res$i_q)) / (max(res$i_q) - min(res$i_q)) - 1
 
-# preprocess pm (response) (OR NOT)
 
-# preprocess stator_yoke
-summary(res$stator_yoke)
-stator_yoke_scaled = (res$stator_yoke - min(res$stator_yoke)) / (max(res$stator_yoke) - min(res$stator_yoke))
+# Fill in the missing data prior to PCA
+library(Amelia)
+
+# PCA temps with respect only to other temps since this is a response variable
+temps = cbind.data.frame(res$pm, res$stator_tooth, res$stator_winding, res$stator_yoke)
+amelia_obj <- amelia(temps)
+imputed_temps = amelia_obj$imputations[[1]] # imputed data
+
+# PCA pm, stator_yoke, stator_tooth, preprocess motor_speed
+temp_pca <- prcomp(imputed_temps, center = TRUE, scale = TRUE)
+
+PC1_vector <- temp_pca$x[, 1]
+
+# Variance explained by first principal component
+print(c("total variance explained by first PCA is ", temp_pca$sdev^2 / sum(temp_pca$sdev^2) * 100))
+
+PC1_scaled = PC1_vector * temp_pca$scale + temp_pca$center
+hist(PC1_scaled * temp_pca$scale + temp_pca$center) # bring back to original scale
 
 # preprocess ambient
 ambient_scaled = (res$ambient - mean(res$ambient)) / sd(res$ambient)
@@ -171,9 +205,12 @@ ambient_scaled = (res$ambient - mean(res$ambient)) / sd(res$ambient)
 summary(res$torque) # symmetric
 torque_scaled = 2 * (res$torque - min(res$torque)) / (max(res$torque) - min(res$torque)) - 1
 
-# Missingness Analysis
+# Missingness Analysis (Move to top of analysis)
 library(naniar)
 missing_summary <- miss_var_summary(res)
 
-library(Amelia)
-amelia_obj <- amelia(res, mcar = c("i_d", "stator_winding"))
+# hypotheses
+# H1: The first principal component of engine temperature metrics stator tooth, stator yoke, stator winding, and 
+# permanent will be strongly linearly related to at least some of the other variables.
+
+
