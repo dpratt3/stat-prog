@@ -106,6 +106,10 @@ par(mfrow = c(1, 1))
 
 dev.off()
 
+# Missingness Analysis
+library(naniar)
+missing_summary <- miss_var_summary(res)
+
 ### Hypothesis One
 # Missingness is MCAR from stator_winding but systematic from i_d
 library(naniar)
@@ -187,7 +191,10 @@ temps = cbind.data.frame(res$pm, res$stator_tooth, res$stator_winding, res$stato
 amelia_obj <- amelia(temps)
 imputed_temps = amelia_obj$imputations[[1]] # imputed data
 
-# PCA pm, stator_yoke, stator_tooth, preprocess motor_speed
+# scale motor speed
+scaled_motor_speed = min_max(res$motor_speed)
+
+# PCA pm, stator_yoke, stator_tooth, stator_winding
 temp_pca <- prcomp(imputed_temps, center = TRUE, scale = TRUE)
 
 PC1_vector <- temp_pca$x[, 1]
@@ -198,6 +205,12 @@ print(c("total variance explained by first PCA is ", temp_pca$sdev^2 / sum(temp_
 PC1_scaled = PC1_vector * temp_pca$scale + temp_pca$center
 hist(PC1_scaled * temp_pca$scale + temp_pca$center) # bring back to original scale
 
+# Calibrate PC1 to make it intelligible (remove extreme temps)
+min_desired <- min(temps, na.rm = TRUE)  # Minimum value of the desired range
+max_desired <- max(temps, na.rm = TRUE)
+
+temps_PC1_scaled <- min_desired + (max_desired - min_desired) * (PC1_scaled - min(PC1_scaled)) / (max(PC1_scaled) - min(PC1_scaled))
+
 # preprocess ambient
 ambient_scaled = (res$ambient - mean(res$ambient)) / sd(res$ambient)
 
@@ -205,12 +218,18 @@ ambient_scaled = (res$ambient - mean(res$ambient)) / sd(res$ambient)
 summary(res$torque) # symmetric
 torque_scaled = 2 * (res$torque - min(res$torque)) / (max(res$torque) - min(res$torque)) - 1
 
-# Missingness Analysis (Move to top of analysis)
-library(naniar)
-missing_summary <- miss_var_summary(res)
+# put preprocessed data together
+scaled_data = cbind.data.frame(scaled_u_q,
+                               scaled_coolant,
+                               u_d_scaled,
+                               scaled_motor_speed,
+                               i_d_scaled,
+                               i_q_scaled,
+                               ambient_scaled,
+                               torque_scaled,
+                               temps_PC1_scaled)
 
-# hypotheses
-# H1: The first principal component of engine temperature metrics stator tooth, stator yoke, stator winding, and 
-# permanent will be strongly linearly related to at least some of the other variables.
 
-
+# original formulas
+formula = lm(temps_PC1_scaled ~ ., data=scaled_data)
+summary(formula)
