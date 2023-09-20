@@ -167,6 +167,36 @@ t.test(subset(res, is.na(stator_winding))$i_q, subset(res, !is.na(stator_winding
 t.test(subset(res, is.na(stator_winding))$ambient, subset(res, !is.na(stator_winding))$ambient)$p.value
 t.test(subset(res, is.na(stator_winding))$torque, subset(res, !is.na(stator_winding))$torque)$p.value
 
+
+library(ggplot2)
+library(reshape2)
+
+# Create a new variable to indicate the missingness of stator_winding
+res$stator_winding_missing <- ifelse(is.na(res$stator_winding), "Missing", "Not Missing")
+
+# Create pairwise boxplots for each variable
+boxplot_data <- melt(res, id.vars = "stator_winding_missing")
+
+# Customize boxplot appearance
+boxplot_theme <- theme_minimal() +
+  theme(axis.text.x = element_blank(),  # Remove x-axis labels
+        axis.title.x = element_blank())  # Remove x-axis title
+
+# Create pairwise boxplots
+boxplot_plot <- ggplot(boxplot_data, aes(x = variable, y = value, fill = stator_winding_missing)) +
+  geom_boxplot() +
+  facet_wrap(~variable, scales = "free", ncol = 2) +
+  labs(x = NULL, y = NULL) +
+  scale_fill_manual(values = c("Not Missing" = "blue", "Missing" = "red")) +
+  boxplot_theme
+
+png("missingness.png", width = 800, height = 2400)
+boxplot_plot
+dev.off()
+
+# Display the boxplots
+print(boxplot_plot)
+
 # There is some missingness on stator_winding as well
 na_summer = function(data) sum(is.na(data))
 apply(res, 2, na_summer)
