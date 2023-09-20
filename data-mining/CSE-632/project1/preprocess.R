@@ -123,9 +123,9 @@ mcar_test_result <- as.numeric(mcar_test(stator_winding_df))
 
 # Interpret the result
 if (mcar_test_result[[1]] < 0.05) {
-  cat("Stator winding missingness does not not follow MCAR (p-value < 0.05)")
+  print("Stator winding missingness does not not follow MCAR (p-value < 0.05)")
 } else {
-  cat("Stator winding missingness (p-value >= 0.05)")
+  print("Stator winding missingness (p-value >= 0.05)")
 }
 
 # Convert the variable to a data frame
@@ -136,9 +136,9 @@ mcar_test_result <- as.numeric(mcar_test(i_q_df))
 
 # Interpret the result
 if (mcar_test_result[[1]] < 0.05) {
-  cat("Missingness for 'i_q' does not follow MCAR (p-value < 0.05)")
+  print("Missingness for 'i_q' does not follow MCAR (p-value < 0.05)")
 } else {
-  cat("Missingness for 'i_q' follows MCAR (p-value >= 0.05)")
+  print("Missingness for 'i_q' follows MCAR (p-value >= 0.05)")
 }
 
 # quantify missingness in i_d variable: pretty stable!
@@ -326,8 +326,24 @@ scaled_data = cbind.data.frame(scaled_u_q,
                                torque_scaled,
                                temps_PC1_scaled)
 
+# Write the scaled_data to a table named "scaled_data" in your database
+dbWriteTable(conn = con, name = "scaled_data", value = scaled_data, overwrite = TRUE)
+
 # original formulas
 formula = lm(temps_PC1_scaled ~ ., data=scaled_data)
 summary(formula)
 
+# Now, impute stator_winding using mice
+library(mice)
+# Create the mice imputation model
+mice_model <- mice(scaled_data, method = "pmm", m = 5)  # Use 5 imputations as an example, you can adjust as needed
+
+# Specify the imputation method for temps_PC1_scaled as "pass"
+mice_model$method[which(names(scaled_data) == "temps_PC1_scaled")] <- "pass"
+
+# Perform the imputations
+scaled_imputed_data <- complete(mice_model)
+dbWriteTable(conn = con, name = "scaled_imputed_data", value = scaled_imputed_data, overwrite = TRUE)
+
+head(scaled_imputed_data)
 
