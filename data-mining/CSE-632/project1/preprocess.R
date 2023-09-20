@@ -167,6 +167,54 @@ t.test(subset(res, is.na(stator_winding))$i_q, subset(res, !is.na(stator_winding
 t.test(subset(res, is.na(stator_winding))$ambient, subset(res, !is.na(stator_winding))$ambient)$p.value
 t.test(subset(res, is.na(stator_winding))$torque, subset(res, !is.na(stator_winding))$torque)$p.value
 
+# Try balancing the classes to see if the t.test shakes out
+# Create a binary indicator for missing values in stator_winding
+res$stator_winding_missing <- ifelse(is.na(res$stator_winding), "Missing", "Not_Missing")
+
+# Calculate the number of observations in each class
+n_missing <- sum(res$stator_winding_missing == "Missing")
+n_not_missing <- sum(res$stator_winding_missing == "Not_Missing")
+
+# Randomly sample from the majority class (Not_Missing) to balance the classes
+set.seed(123)  # Set a seed for reproducibility
+if (n_missing < n_not_missing) {
+  # If Missing class is smaller, sample from Not_Missing class
+  res_sampled <- rbind(
+    res[res$stator_winding_missing == "Missing", ],
+    res[sample(which(res$stator_winding_missing == "Not_Missing"), n_missing), ]
+  )
+} else {
+  # If Not_Missing class is smaller, sample from Missing class
+  res_sampled <- rbind(
+    res[res$stator_winding_missing == "Not_Missing", ],
+    res[sample(which(res$stator_winding_missing == "Missing"), n_not_missing), ]
+  )
+}
+
+# Check the class distribution in the balanced dataset
+table(res_sampled$stator_winding_missing)
+
+# Separate the sampled data into two groups based on stator_winding_missing
+group_missing <- subset(res_sampled, stator_winding_missing == "Missing")
+group_not_missing <- subset(res_sampled, stator_winding_missing == "Not_Missing")
+
+# Define a function to perform a t-test and return p-value and mean difference
+perform_t_test <- function(var_name) {
+  if (sum(!is.na(group_missing[, var_name])) < 2 || sum(!is.na(group_not_missing[, var_name])) < 2) {
+    # Not enough observations for a valid t-test, return NA
+    return(c(p_value = NA, mean_diff = NA))
+  } else {
+    t_test <- t.test(group_missing[, var_name], group_not_missing[, var_name])
+    return(c(p_value = t_test$p.value, mean_diff = t_test$estimate[1] - t_test$estimate[2]))
+  }
+}
+
+# Perform t-tests for each variable and store p-values and mean differences
+t_test_results <- sapply(names(res_sampled)[1:8], perform_t_test)
+
+# Display the results
+t_test_results
+
 
 library(ggplot2)
 library(reshape2)
@@ -278,7 +326,8 @@ scaled_data = cbind.data.frame(scaled_u_q,
                                torque_scaled,
                                temps_PC1_scaled)
 
-
 # original formulas
 formula = lm(temps_PC1_scaled ~ ., data=scaled_data)
 summary(formula)
+
+
