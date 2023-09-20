@@ -327,7 +327,7 @@ scaled_data = cbind.data.frame(scaled_u_q,
                                temps_PC1_scaled)
 
 # Write the scaled_data to a table named "scaled_data" in your database
-dbWriteTable(conn = con, name = "scaled_data", value = scaled_data, overwrite = TRUE)
+dbWriteTable(conn = con, name = "scaled_data", value = scaled_data, overwrite = TRUE, row.names=FALSE)
 
 # original formulas
 formula = lm(temps_PC1_scaled ~ ., data=scaled_data)
@@ -343,7 +343,7 @@ mice_model$method[which(names(scaled_data) == "temps_PC1_scaled")] <- "pass"
 
 # Perform the imputations
 scaled_imputed_data <- complete(mice_model)
-dbWriteTable(conn = con, name = "scaled_imputed_data", value = scaled_imputed_data, overwrite = TRUE)
+dbWriteTable(conn = con, name = "scaled_imputed_data", value = scaled_imputed_data, overwrite = TRUE, row.names=FALSE)
 
 head(scaled_imputed_data)
 
