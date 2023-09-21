@@ -34,7 +34,6 @@ missingData <- function(column){
 # count missting data:
 apply(res, 2, missingData)
 
-
 # Find percentage of missing data
 print(100 * sum(is.na(res$i_d)) / length(res$i_d))
 
@@ -231,14 +230,27 @@ boxplot_theme <- theme_minimal() +
         axis.title.x = element_blank())  # Remove x-axis title
 
 # Create pairwise boxplots
+# Your ggplot code here
 boxplot_plot <- ggplot(boxplot_data, aes(x = variable, y = value, fill = stator_winding_missing)) +
   geom_boxplot() +
   facet_wrap(~variable, scales = "free", ncol = 2) +
   labs(x = NULL, y = NULL) +
   scale_fill_manual(values = c("Not Missing" = "blue", "Missing" = "red")) +
-  boxplot_theme
+  
+  # Adjust the font size for various elements
+  theme(
+    text = element_text(size = 14),  # Change the overall text size to 14
+    axis.title.x = element_text(size = 16),  # X-axis title font size
+    axis.title.y = element_text(size = 16),  # Y-axis title font size
+    axis.text.x = element_text(size = 12),   # X-axis tick labels font size
+    axis.text.y = element_text(size = 12),   # Y-axis tick labels font size
+    legend.title = element_text(size = 14),  # Legend title font size
+    legend.text = element_text(size = 12)   # Legend labels font size
+  )
 
-png("missingness.png", width = 800, height = 2400)
+print(boxplot_plot)
+
+png("missingness.png", width = 1600, height = 1600)
 boxplot_plot
 dev.off()
 
@@ -259,15 +271,6 @@ scaled_u_q = min_max(res$u_q)
 summary(res$coolant)
 scaled_coolant = (res$coolant - min(res$coolant)) / (max(res$coolant) - min(res$coolant))
 
-# preprocess stator_winding (note: there is about 5% missingness here from one )
-# summary(res$stator_winding)
-# scaled_stator_winding = (res$stator_winding - min(res$stator_winding)) / (max(res$stator_winding) - min(res$stator_winding))
-# missing_fraction = vector()
-# for(i in unique_profiles_ids){
-#     subsetted_data = subset(res, profile_id == i)
-#     missing_fraction[i] = sum(is.na(subsetted_data$stator_winding)) / length(subsetted_data$stator_winding)
-# }
-
 # preprocess u_d
 summary(res$u_d) # symmetric
 u_d_scaled = 2 * (res$u_d - min(res$u_d)) / (max(res$u_d) - min(res$u_d)) - 1
@@ -278,7 +281,6 @@ i_d_scaled <- -(res$i_d - min(res$i_d, na.rm = TRUE)) / ( max(res$i_d, na.rm = T
 # preprocess i_q
 summary(res$i_q) # symmetric
 i_q_scaled = 2 * (res$i_q - min(res$i_q)) / (max(res$i_q) - min(res$i_q)) - 1
-
 
 # Fill in the missing data prior to PCA
 library(Amelia)
@@ -326,6 +328,14 @@ scaled_data = cbind.data.frame(scaled_u_q,
                                torque_scaled,
                                temps_PC1_scaled)
 
+png("coor-plot-scaled.png", width = 800, height = 800)
+
+correlation_matrix2 = cor(scaled_data, use="complete.obs") # exlclude profile
+
+corrplot(correlation_matrix2, method = "color", type = "upper", order = "original",
+         tl.col = "black", tl.srt = 45, col = colorRampPalette(c("blue", "orange"))(100))
+dev.off()
+
 # Write the scaled_data to a table named "scaled_data" in your database
 dbWriteTable(conn = con, name = "scaled_data", value = scaled_data, overwrite = TRUE, row.names=FALSE)
 
@@ -333,7 +343,7 @@ dbWriteTable(conn = con, name = "scaled_data", value = scaled_data, overwrite = 
 formula = lm(temps_PC1_scaled ~ ., data=scaled_data)
 summary(formula)
 
-# Now, impute stator_winding using mice
+# Now, impute stator_winding imputation using mice
 library(mice)
 # Create the mice imputation model
 mice_model <- mice(scaled_data, method = "pmm", m = 5)  # Use 5 imputations as an example, you can adjust as needed
