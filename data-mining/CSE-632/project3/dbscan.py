@@ -4,6 +4,7 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 from scipy import ndimage
 from joblib import Parallel, delayed
+from sklearn.metrics import silhouette_score
 
 data = pd.read_csv("sparse_pca_transformed_data.csv")
 data = data.iloc[:, :10]
@@ -12,16 +13,18 @@ std_deviation = data.std().mean()
 
 print(std_deviation)
 
-std_dev_mult = np.arange(0.1, 4, 0.1)
+std_dev_mult = np.arange(0.1, 5, 0.1)
 min_samp_mult = np.arange(1, 30, 1)
 
 def perform_dbscan(row, col, std_dev_mult, std_deviation, min_samp_mult, data):
-    dbscan_result = DBSCAN(eps=std_dev_mult[row] * std_deviation, min_samples=min_samp_mult[col], metric="manhattan").fit(data)
+    dbscan_result = DBSCAN(eps=std_dev_mult[row] * std_deviation, min_samples=min_samp_mult[col], metric="euclidean").fit(data)
     labels = dbscan_result.labels_
     
     # Count the number of clusters excluding noise (-1)
     num_clusters = len(set(labels)) - (1 if -1 in labels else 0)
     return num_clusters
+    # silhouette = silhouette_score(data, labels)
+    # return silhouette
 
 df = pd.DataFrame(index=std_dev_mult, columns=min_samp_mult)
 
@@ -71,3 +74,5 @@ sizes = [np.sum(labeled_matrix == i) for i in range(1, num_features+1)]
 # Find the size of the largest island
 largest_island_size = max(sizes)
 print("Size of the largest island:", largest_island_size)
+
+df.to_csv("grid_search.csv", index = True)
