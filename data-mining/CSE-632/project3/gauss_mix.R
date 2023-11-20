@@ -16,7 +16,18 @@ simulated_density <- density(simulated_data)
 max_density <- max(c(observed_density$y, simulated_density$y))
 
 # Create a density plot for observed and simulated data
-plot(density(data), main = "Observed vs. Simulated Data Density", ylim = c(0, max_density))
-lines(density(simulated_data), col = "red")
-legend("topright", legend = c("Observed Data", "Simulated Data"), col = c("black", "red"), lty = 1)
+density_observed <- density(data)
+density_simulated <- density(simulated_data)
 
+# Get the maximum density to set ylim
+max_density <- max(density_observed$y, density_simulated$y)
+
+# Plot the densities with improved styling
+plot(density_observed, main = "Observed vs. Simulated Data Density", ylim = c(0, max_density), col = "black", lty = 1, lwd = 2)
+lines(density_simulated, col = "red", lwd = 2)
+
+# Add legend
+legend("topright", legend = c("Observed Data", "Simulated Data"), col = c("black", "red"), lty = 1, lwd = 2)
+
+# Add gridlines
+grid()
