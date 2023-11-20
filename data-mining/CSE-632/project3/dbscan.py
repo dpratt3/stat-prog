@@ -19,8 +19,6 @@ min_samp_mult = np.arange(4, 8, 1)
 def perform_dbscan(row, col, std_dev_mult, std_deviation, min_samp_mult, data):
     dbscan_result = DBSCAN(eps=std_dev_mult[row] * std_deviation, min_samples=min_samp_mult[col], metric="euclidean").fit(data)
     labels = dbscan_result.labels_
-
-    
     
     # Count the number of clusters excluding noise (-1)
     num_clusters = len(set(labels)) - (1 if -1 in labels else 0)
