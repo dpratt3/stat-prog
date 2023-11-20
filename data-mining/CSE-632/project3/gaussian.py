@@ -42,3 +42,24 @@ for cluster_label in range(num_clusters):
 # Display the sizes of the clusters
 for i, size in enumerate(cluster_sizes):
     print(f"Cluster {i+1}: {size} data points")
+
+# Fit GMM model to the data
+gmm = GaussianMixture(n_components=num_clusters, random_state=42)
+labels = gmm.fit_predict(data)
+
+# Plot histograms for each cluster for all 10 features
+for cluster_label in range(num_clusters):
+    cluster_data = data[labels == cluster_label]  # Data points belonging to the cluster
+
+    # Plot histograms for each feature
+    plt.figure(figsize=(12, 8))
+    for feature_idx in range(cluster_data.shape[1]):
+        plt.subplot(2, 5, feature_idx + 1)  # Adjust the subplot grid as per the number of features
+        plt.hist(cluster_data.iloc[:, feature_idx], bins=30, alpha=0.7)
+        plt.title(f'Feature {feature_idx + 1} - Cluster {cluster_label+1}')
+        plt.xlabel('Values')
+        plt.ylabel('Frequency')
+
+    plt.suptitle(f'Histograms for Cluster {cluster_label+1}')
+    plt.tight_layout()
+    plt.show()
