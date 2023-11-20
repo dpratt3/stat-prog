@@ -26,3 +26,19 @@ plt.ylabel('BIC Score')
 plt.title('BIC Score vs Number of Clusters')
 plt.show()
 
+# Optimal cluster number
+num_clusters = 6
+
+# Fit GMM model to the data
+gmm = GaussianMixture(n_components=num_clusters, random_state=42)
+labels = gmm.fit_predict(data)
+
+# Count the number of data points in each cluster
+cluster_sizes = []
+for cluster_label in range(num_clusters):
+    cluster_size = sum(labels == cluster_label)
+    cluster_sizes.append(cluster_size)
+
+# Display the sizes of the clusters
+for i, size in enumerate(cluster_sizes):
+    print(f"Cluster {i+1}: {size} data points")
