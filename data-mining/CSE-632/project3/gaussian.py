@@ -63,3 +63,25 @@ for cluster_label in range(num_clusters):
     plt.suptitle(f'Histograms for Cluster {cluster_label+1}')
     plt.tight_layout()
     plt.show()
+
+# Look at clusters in terms of response variable
+data['Cluster_Labels'] = labels
+
+# Import raw data
+
+# Import both target and non-target variables, join them, and eliminate the 'Act' column
+train = pd.read_csv("~/Downloads/QSAR-data/OX2_training_disguised.csv")
+test = pd.read_csv("~/Downloads/QSAR-data/OX2_test_disguised.csv")
+
+train_cols = set(train.columns)
+test_cols = set(test.columns)
+
+if train_cols == test_cols:
+    print("Train and test sets have the same columns.")
+else:
+    print("Train and test sets have different columns.")
+
+df = pd.concat([train, test], ignore_index=True, axis=0)
+
+clustered_response = pd.DataFrame(index = data['Cluster_Labels'] columns = df['Act'])
+print(clustered_response)
