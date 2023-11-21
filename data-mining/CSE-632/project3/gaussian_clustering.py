@@ -88,3 +88,13 @@ clustered_response = pd.DataFrame({'Act': df['Act']})
 
 # Set 'Cluster_Labels' as the index of the new DataFrame
 clustered_response.set_index(data['Cluster_Labels'], inplace=True)
+
+from sklearn import metrics
+
+# Select features for clustering (excluding the 'Cluster_Labels' column)
+features = data.drop('Cluster_Labels', axis=1)
+
+# Calculate Calinski-Harabasz Index for GMM clustering
+calinski_harabasz_score_gmm = metrics.calinski_harabasz_score(features, data['Cluster_Labels'])
+
+print(f"Calinski-Harabasz Index for GMM: {calinski_harabasz_score_gmm}")
