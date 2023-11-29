@@ -9,7 +9,7 @@ keys = np.unique(traversal_log)
 # store indices
 positions = {}
 
-# Return the maximal traversal
+# Return the maximal traversal length between occurences
 def max_diff(arr):
     if len(arr) == 0 or len(arr) == 1:
         return 0
