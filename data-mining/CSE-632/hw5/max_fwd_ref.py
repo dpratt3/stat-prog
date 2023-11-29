@@ -14,7 +14,7 @@ def max_diff(arr):
     if len(arr) == 0 or len(arr) == 1:
         return 0
     else:
-        return np.max(np.diff(arr))
+        return np.max(np.diff(arr)) - 1 
 
 for key in keys:
     indices = np.where(traversal_log == key)[0]
