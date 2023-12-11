@@ -1,8 +1,9 @@
 import numpy as np
 
-traversal_log = np.array(['X', 'Y', 'Z', 'W', 'Y', 'A', 'B', 'C', 
-                            'D', 'Y', 'C', 'D', 'E', 'F', 'D', 'E', 
-                                'X', 'Y', 'A', 'B', 'M', 'N'])
+traversal_log = np.array(['A', 'Z', 'B', 'C', 'D', 'E', 'D', 'C', 'B', 
+                            'X', 'Y', 'Z', 'Y', 'X', 'K', 'L', 'K', 'X', 
+                                'B', 'M', 'N', 'O', 'N', 'M', 'B', 'Z', 'A', 
+                                    'G', 'H', 'I'])
 
 keys = np.unique(traversal_log)
 
